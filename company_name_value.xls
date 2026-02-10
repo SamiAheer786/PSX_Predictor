@@ -1,0 +1,361 @@
+id,value,label2,label,name,sector_id,sector,symbol,image
+1,1,ABOT,Abbot Laboratories (Pakistan) Ltd,Abbot Laboratories (Pakistan) Ltd,1,PHARMACEUTICALS,ABOT,https://admin.askanalyst.com.pk/logo16/ABOT.svg
+2,2,AGSML,Abdullah Shah Ghazi Sugar Mills Ltd,Abdullah Shah Ghazi Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,AGSML,https://admin.askanalyst.com.pk/logo16/AGSML.svg
+3,3,ADAMS,Adam Sugar Mills Ltd,Adam Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,ADAMS,https://admin.askanalyst.com.pk/logo16/ADAMS.svg
+4,4,AICL,Adamjee Insurance Company Ltd,Adamjee Insurance Company Ltd,3,INSURANCE,AICL,https://admin.askanalyst.com.pk/logo16/AICL.svg
+5,5,ADOS,Ados Pakistan Ltd,Ados Pakistan Ltd,4,ENGINEERING,ADOS,https://admin.askanalyst.com.pk/logo16/ADOS.svg
+6,6,AGHA,Agha Steel Ind.Ltd,Agha Steel Ind.Ltd,4,ENGINEERING,AGHA,https://admin.askanalyst.com.pk/logo16/AGHA.svg
+7,7,AGP,AGP Ltd,AGP Ltd,1,PHARMACEUTICALS,AGP,https://admin.askanalyst.com.pk/logo16/AGP.svg
+8,8,AGIL,Agriauto Industries Ltd,Agriauto Industries Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,AGIL,https://admin.askanalyst.com.pk/logo16/AGIL.svg
+9,9,AGL,Agritech Ltd,Agritech Ltd,6,CHEMICAL,AGL,https://admin.askanalyst.com.pk/logo16/AGL.svg
+10,10,AHTM,Ahmad Hassan Textile Mills Ltd,Ahmad Hassan Textile Mills Ltd,7,TEXTILE COMPOSITE,AHTM,https://admin.askanalyst.com.pk/logo16/AHTM.svg
+11,11,ASL,Aisha Steel Mills Ltd,Aisha Steel Mills Ltd,4,ENGINEERING,ASL,https://admin.askanalyst.com.pk/logo16/ASL.svg
+12,12,ASC,Al Shaheer Corporation,Al Shaheer Corporation,8,FOOD & PERSONAL CARE PRODUCTS,ASC,https://admin.askanalyst.com.pk/logo16/ASC.svg
+13,13,AABS,Al-Abbas Sugar Mills Ltd,Al-Abbas Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,AABS,https://admin.askanalyst.com.pk/logo16/AABS.svg
+14,14,AASM,Al-Abid Silk Mills Ltd,Al-Abid Silk Mills Ltd,9,SYNTHETIC & RAYON,AASM,https://admin.askanalyst.com.pk/logo16/AASM.svg
+15,15,AGTL,Al-Ghazi Tractors Ltd,Al-Ghazi Tractors Ltd,10,AUTOMOBILE ASSEMBLER,AGTL,https://admin.askanalyst.com.pk/logo16/AGTL.svg
+16,16,AKGL,Al-Khair Gadoon Ltd,Al-Khair Gadoon Ltd,11,MISCELLANEOUS,AKGL,https://admin.askanalyst.com.pk/logo16/AKGL.svg
+17,17,ALNRS,Al-Noor Sugar Mills Ltd,Al-Noor Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,ALNRS,https://admin.askanalyst.com.pk/logo16/ALNRS.svg
+18,18,AWTX,Allawasaya Textile and Finishing Mills Ltd,Allawasaya Textile and Finishing Mills Ltd,12,TEXTILE SPINNING,AWTX,https://admin.askanalyst.com.pk/logo16/AWTX.svg
+19,19,ABL,Allied Bank Ltd,Allied Bank Ltd,13,COMMERCIAL BANKS,ABL,https://admin.askanalyst.com.pk/logo16/ABL.svg
+20,20,ALTN,Altern Energy Ltd,Altern Energy Ltd,14,POWER GENERATION & DISTRIBUTION,ALTN,https://admin.askanalyst.com.pk/logo16/ALTN.svg
+21,21,ASTL,Amreli Steels Ltd,Amreli Steels Ltd,4,ENGINEERING,ASTL,https://admin.askanalyst.com.pk/logo16/ASTL.svg
+22,22,ARPL,Archroma Pakistan Ltd,Archroma Pakistan Ltd,6,CHEMICAL,ARPL,https://admin.askanalyst.com.pk/logo16/ARPL.svg
+23,23,AHL,Arif Habib Ltd,Arif Habib Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,AHL,https://admin.askanalyst.com.pk/logo16/AHL.svg
+24,24,ADMM,Artistic Denim Mills Ltd,Artistic Denim Mills Ltd,7,TEXTILE COMPOSITE,ADMM,https://admin.askanalyst.com.pk/logo16/ADMM.svg
+25,25,AKBL,Askari Bank Ltd,Askari Bank Ltd,13,COMMERCIAL BANKS,AKBL,https://admin.askanalyst.com.pk/logo16/AKBL.svg
+26,26,AGIC,Askari General Insurance Co. Ltd,Askari General Insurance Co. Ltd,3,INSURANCE,AGIC,https://admin.askanalyst.com.pk/logo16/AGIC.svg
+27,27,PREMA,At-Tahur Ltd,At-Tahur Ltd,8,FOOD & PERSONAL CARE PRODUCTS,PREMA,https://admin.askanalyst.com.pk/logo16/PREMA.svg
+28,28,ATBA,Atlas Battery Ltd,Atlas Battery Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,ATBA,https://admin.askanalyst.com.pk/logo16/ATBA.svg
+29,29,ATLH,Atlas Honda Ltd,Atlas Honda Ltd,10,AUTOMOBILE ASSEMBLER,ATLH,https://admin.askanalyst.com.pk/logo16/ATLH.svg
+30,30,ATIL,Atlas Insurance Ltd,Atlas Insurance Ltd,3,INSURANCE,ATIL,https://admin.askanalyst.com.pk/logo16/ATIL.svg
+31,31,ACPL,Attock Cement Pakistan Ltd,Attock Cement Pakistan Ltd,16,CEMENT,ACPL,https://admin.askanalyst.com.pk/logo16/ACPL.svg
+32,32,APL,Attock Petroleum Ltd,Attock Petroleum Ltd,17,OIL & GAS MARKETING COMPANIES,APL,https://admin.askanalyst.com.pk/logo16/APL.svg
+33,33,ATRL,Attock Refinery Ltd,Attock Refinery Ltd,18,REFINERY,ATRL,https://admin.askanalyst.com.pk/logo16/ATRL.svg
+34,34,AVN,Avanceon Ltd,Avanceon Ltd,19,TECHNOLOGY & COMMUNICATION,AVN,https://admin.askanalyst.com.pk/logo16/AVN.svg
+35,35,ANL,Azgard Nine Ltd,Azgard Nine Ltd,7,TEXTILE COMPOSITE,ANL,https://admin.askanalyst.com.pk/logo16/ANL.svg
+36,36,BAFS,Baba Farid Sugar Mills Ltd,Baba Farid Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,BAFS,https://admin.askanalyst.com.pk/logo16/BAFS.svg
+37,37,BCML,Babri Cotton Mills Ltd,Babri Cotton Mills Ltd,12,TEXTILE SPINNING,BCML,https://admin.askanalyst.com.pk/logo16/BCML.svg
+38,38,BGL,Balochistan Glass Ltd,Balochistan Glass Ltd,20,GLASS & CERAMICS,BGL,https://admin.askanalyst.com.pk/logo16/BGL.svg
+39,39,BWHL,Baluchistan Wheels Ltd,Baluchistan Wheels Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,BWHL,https://admin.askanalyst.com.pk/logo16/BWHL.svg
+40,40,BAHL,Bank Al Habib Ltd,Bank Al Habib Ltd,13,COMMERCIAL BANKS,BAHL,https://admin.askanalyst.com.pk/logo16/BAHL.svg
+41,41,BAFL,Bank Alfalah Ltd,Bank Alfalah Ltd,13,COMMERCIAL BANKS,BAFL,https://admin.askanalyst.com.pk/logo16/BAFL.svg
+42,42,BIPL,Bankislami Pakistan Ltd,Bankislami Pakistan Ltd,13,COMMERCIAL BANKS,BIPL,https://admin.askanalyst.com.pk/logo16/BIPL.svg
+43,43,BNWM,Bannu Woollen Mills Ltd,Bannu Woollen Mills Ltd,21,WOOLLEN,BNWM,https://admin.askanalyst.com.pk/logo16/BNWM.svg
+44,44,BATA,Bata Pakistan Ltd,Bata Pakistan Ltd,22,LEATHER & TANNERIES,BATA,https://admin.askanalyst.com.pk/logo16/BATA.svg
+45,45,BAPL,Bawanyair Products Ltd,Bawanyair Products Ltd,6,CHEMICAL,BAPL,https://admin.askanalyst.com.pk/logo16/BAPL.svg
+46,46,BECO,Beco Steel Ltd,Beco Steel Ltd,4,ENGINEERING,BECO,https://admin.askanalyst.com.pk/logo16/BECO.svg
+47,47,BERG,Berger Paints Pakistan Ltd,Berger Paints Pakistan Ltd,6,CHEMICAL,BERG,https://admin.askanalyst.com.pk/logo16/BERG.svg
+48,48,BWCL,Bestway Cement Ltd,Bestway Cement Ltd,16,CEMENT,BWCL,https://admin.askanalyst.com.pk/logo16/BWCL.svg
+49,49,BHAT,Bhanero Textile Mills Ltd,Bhanero Textile Mills Ltd,7,TEXTILE COMPOSITE,BHAT,https://admin.askanalyst.com.pk/logo16/BHAT.svg
+50,50,BIFO,Biafo Industries Ltd,Biafo Industries Ltd,6,CHEMICAL,BIFO,https://admin.askanalyst.com.pk/logo16/BIFO.svg
+51,51,ZUMA,Zuma Resources Limited,Zuma Resources Limited,12,TEXTILE SPINNING,ZUMA,https://admin.askanalyst.com.pk/logo16/ZUMA.svg
+52,52,BTL,Blessed Textiles Ltd,Blessed Textiles Ltd,7,TEXTILE COMPOSITE,BTL,https://admin.askanalyst.com.pk/logo16/BTL.svg
+53,53,BCL,Bolan Castings Ltd,Bolan Castings Ltd,4,ENGINEERING,BCL,https://admin.askanalyst.com.pk/logo16/BCL.svg
+54,54,BNL,Bunny's Ltd,Bunny's Ltd,8,FOOD & PERSONAL CARE PRODUCTS,BNL,https://admin.askanalyst.com.pk/logo16/BNL.svg
+55,55,BPL,Burshane LPG (Pakistan) Ltd,Burshane LPG (Pakistan) Ltd,17,OIL & GAS MARKETING COMPANIES,BPL,https://admin.askanalyst.com.pk/logo16/BPL.svg
+56,56,BUXL,Buxly Paints Ltd,Buxly Paints Ltd,6,CHEMICAL,BUXL,https://admin.askanalyst.com.pk/logo16/BUXL.svg
+57,57,CASH,CALCORP Ltd,CALCORP Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,CASH,https://admin.askanalyst.com.pk/logo16/CASH.svg
+58,58,CENI,Century Insurance Company Ltd,Century Insurance Company Ltd,3,INSURANCE,CENI,https://admin.askanalyst.com.pk/logo16/CENI.svg
+59,59,CEPB,Century Paper & Board Mills Ltd,Century Paper & Board Mills Ltd,23,PAPER & BOARD,CEPB,https://admin.askanalyst.com.pk/logo16/CEPB.svg
+60,60,QTECH,Quantum Data Technologies Limited,Quantum Data Technologies Limited,12,TEXTILE SPINNING,QTECH,https://admin.askanalyst.com.pk/logo16/QTECH.svg
+61,61,CHAS,Chashma Sugar Mills Ltd,Chashma Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,CHAS,https://admin.askanalyst.com.pk/logo16/CHAS.svg
+62,62,CHBL,Chenab Ltd,Chenab Ltd,7,TEXTILE COMPOSITE,CHBL,https://admin.askanalyst.com.pk/logo16/CHBL.svg
+63,63,CHCC,Cherat Cement Company Ltd,Cherat Cement Company Ltd,16,CEMENT,CHCC,https://admin.askanalyst.com.pk/logo16/CHCC.svg
+64,64,CPPL,Cherat Packaging Ltd,Cherat Packaging Ltd,23,PAPER & BOARD,CPPL,https://admin.askanalyst.com.pk/logo16/CPPL.svg
+65,65,CLOV,Clover Pakistan Ltd,Clover Pakistan Ltd,8,FOOD & PERSONAL CARE PRODUCTS,CLOV,https://admin.askanalyst.com.pk/logo16/CLOV.svg
+66,66,CNERGY,Cnergyico Pk Ltd,Cnergyico Pk Ltd,18,REFINERY,CNERGY,https://admin.askanalyst.com.pk/logo16/CNERGY.svg
+67,67,COLG,Colgate-Palmolive (Pakistan) Ltd,Colgate-Palmolive (Pakistan) Ltd,8,FOOD & PERSONAL CARE PRODUCTS,COLG,https://admin.askanalyst.com.pk/logo16/COLG.svg
+68,68,CFL,Crescent Fibres Ltd,Crescent Fibres Ltd,12,TEXTILE SPINNING,CFL,https://admin.askanalyst.com.pk/logo16/CFL.svg
+69,69,CJPL,Crescent Jute Products Ltd,Crescent Jute Products Ltd,24,JUTE,CJPL,https://admin.askanalyst.com.pk/logo16/CJPL.svg
+70,70,CSIL,Crescent Star Insurance Ltd,Crescent Star Insurance Ltd,3,INSURANCE,CSIL,https://admin.askanalyst.com.pk/logo16/CSIL.svg
+71,71,CSAP,Crescent Steel and Allied Products Ltd,Crescent Steel and Allied Products Ltd,4,ENGINEERING,CSAP,https://admin.askanalyst.com.pk/logo16/CSAP.svg
+72,72,DGKC,D.G. Khan Cement Company Ltd,D.G. Khan Cement Company Ltd,16,CEMENT,DGKC,https://admin.askanalyst.com.pk/logo16/DGKC.svg
+73,73,DMC,D.M. Corporation Ltd,D.M. Corporation Ltd,12,TEXTILE SPINNING,DMC,https://admin.askanalyst.com.pk/logo16/DMC.svg
+74,74,DADX,Dadex Eternit Ltd,Dadex Eternit Ltd,4,ENGINEERING,DADX,https://admin.askanalyst.com.pk/logo16/DADX.svg
+75,75,DNCC,Dandot Cement Company Ltd,Dandot Cement Company Ltd,16,CEMENT,DNCC,https://admin.askanalyst.com.pk/logo16/DNCC.svg
+76,76,ENGROH,Engro Holdings Limited,Engro Holdings Limited,15,INV. BANKS / INV. COS. / SECURITIES COS.,ENGROH,https://admin.askanalyst.com.pk/logo16/ENGROH.svg
+77,77,DLL,Dawood Lawrencepur Ltd,Dawood Lawrencepur Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,DLL,https://admin.askanalyst.com.pk/logo16/DLL.svg
+78,78,DOL,Descon Oxychem Ltd,Descon Oxychem Ltd,6,CHEMICAL,DOL,https://admin.askanalyst.com.pk/logo16/DOL.svg
+79,79,DCL,Dewan Cement Ltd,Dewan Cement Ltd,16,CEMENT,DCL,https://admin.askanalyst.com.pk/logo16/DCL.svg
+80,80,DFML,Dewan Farooque Motors Ltd,Dewan Farooque Motors Ltd,10,AUTOMOBILE ASSEMBLER,DFML,https://admin.askanalyst.com.pk/logo16/DFML.svg
+81,81,DFSM,Dewan Farooque Spinning Mills Ltd,Dewan Farooque Spinning Mills Ltd,12,TEXTILE SPINNING,DFSM,https://admin.askanalyst.com.pk/logo16/DFSM.svg
+82,82,DKTM,Dewan Khalid Textile Mills Ltd,Dewan Khalid Textile Mills Ltd,12,TEXTILE SPINNING,DKTM,https://admin.askanalyst.com.pk/logo16/DKTM.svg
+83,83,DMTM,Dewan Mushtaq Textile Mills Ltd,Dewan Mushtaq Textile Mills Ltd,12,TEXTILE SPINNING,DMTM,https://admin.askanalyst.com.pk/logo16/DMTM.svg
+84,84,DWSM,Dewan Sugar Mills Ltd,Dewan Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,DWSM,https://admin.askanalyst.com.pk/logo16/DWSM.svg
+85,85,DWTM,Dewan Textile Mills Ltd,Dewan Textile Mills Ltd,12,TEXTILE SPINNING,DWTM,https://admin.askanalyst.com.pk/logo16/DWTM.svg
+86,86,DINT,Din Textile Mills Ltd,Din Textile Mills Ltd,12,TEXTILE SPINNING,DINT,https://admin.askanalyst.com.pk/logo16/DINT.svg
+87,87,DCR,Dolmen City REIT,Dolmen City REIT,25,REAL ESTATE INVESTMENT TRUST,DCR,https://admin.askanalyst.com.pk/logo16/DCR.svg
+88,88,DYNO,Dynea Pakistan Ltd,Dynea Pakistan Ltd,6,CHEMICAL,DYNO,https://admin.askanalyst.com.pk/logo16/DYNO.svg
+89,89,EWIC,East West Insurance Co. Ltd,East West Insurance Co. Ltd,3,INSURANCE,EWIC,https://admin.askanalyst.com.pk/logo16/EWIC.svg
+90,90,ECOP,Ecopack Ltd,Ecopack Ltd,11,MISCELLANEOUS,ECOP,https://admin.askanalyst.com.pk/logo16/ECOP.svg
+91,91,IMS,Intermarket Securities Limited,Intermarket Securities Limited,15,INV. BANKS / INV. COS. / SECURITIES COS.,IMS,https://admin.askanalyst.com.pk/logo16/IMS.svg
+92,92,EFUG,EFU General Insurance Ltd,EFU General Insurance Ltd,3,INSURANCE,EFUG,https://admin.askanalyst.com.pk/logo16/EFUG.svg
+93,93,EFUL,EFU Life Assurance Ltd,EFU Life Assurance Ltd,3,INSURANCE,EFUL,https://admin.askanalyst.com.pk/logo16/EFUL.svg
+94,94,ELSM,Ellcot Spinning Mills Ltd,Ellcot Spinning Mills Ltd,12,TEXTILE SPINNING,ELSM,https://admin.askanalyst.com.pk/logo16/ELSM.svg
+95,95,EMCO,Emco Industries Ltd,Emco Industries Ltd,26,CABLE & ELECTRICAL GOODS,EMCO,https://admin.askanalyst.com.pk/logo16/EMCO.svg
+96,96,ENGRO,Engro Corporation Ltd,Engro Corporation Ltd,27,FERTILIZER,ENGRO,https://admin.askanalyst.com.pk/logo16/ENGRO.svg
+97,97,EFERT,Engro Fertilizers Ltd,Engro Fertilizers Ltd,27,FERTILIZER,EFERT,https://admin.askanalyst.com.pk/logo16/EFERT.svg
+98,98,EPCL,Engro Polymer & Chemicals Ltd,Engro Polymer & Chemicals Ltd,6,CHEMICAL,EPCL,https://admin.askanalyst.com.pk/logo16/EPCL.svg
+99,99,EPQL,Engro Powergen Qadirpur Ltd,Engro Powergen Qadirpur Ltd,14,POWER GENERATION & DISTRIBUTION,EPQL,https://admin.askanalyst.com.pk/logo16/EPQL.svg
+100,100,EXIDE,Exide Pakistan Ltd,Exide Pakistan Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,EXIDE,https://admin.askanalyst.com.pk/logo16/EXIDE.svg
+101,101,FASM,Faisal Spinning Mills Ltd,Faisal Spinning Mills Ltd,7,TEXTILE COMPOSITE,FASM,https://admin.askanalyst.com.pk/logo16/FASM.svg
+102,102,FRSM,Faran Sugar Mills Ltd,Faran Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,FRSM,https://admin.askanalyst.com.pk/logo16/FRSM.svg
+103,103,FSWL,Fateh Sports Wear Ltd,Fateh Sports Wear Ltd,7,TEXTILE COMPOSITE,FSWL,https://admin.askanalyst.com.pk/logo16/FSWL.svg
+104,104,FATIMA,Fatima Fertilizer Company Ltd,Fatima Fertilizer Company Ltd,27,FERTILIZER,FATIMA,https://admin.askanalyst.com.pk/logo16/FATIMA.svg
+105,105,FCCL,Fauji Cement Company Ltd,Fauji Cement Company Ltd,16,CEMENT,FCCL,https://admin.askanalyst.com.pk/logo16/FCCL.svg
+106,106,FFBL,Fauji Fertilizer Bin Qasim Ltd,Fauji Fertilizer Bin Qasim Ltd,27,FERTILIZER,FFBL,https://admin.askanalyst.com.pk/logo16/FFBL.svg
+107,107,FFC,Fauji Fertilizer Company Ltd,Fauji Fertilizer Company Ltd,27,FERTILIZER,FFC,https://admin.askanalyst.com.pk/logo16/FFC.svg
+108,108,FFL,Fauji Foods Ltd,Fauji Foods Ltd,8,FOOD & PERSONAL CARE PRODUCTS,FFL,https://admin.askanalyst.com.pk/logo16/FFL.svg
+109,109,FABL,Faysal Bank Ltd,Faysal Bank Ltd,13,COMMERCIAL BANKS,FABL,https://admin.askanalyst.com.pk/logo16/FABL.svg
+110,110,FZCM,Fazal Cloth Mills Ltd,Fazal Cloth Mills Ltd,7,TEXTILE COMPOSITE,FZCM,https://admin.askanalyst.com.pk/logo16/FZCM.svg
+111,111,FECTC,Fecto Cement Ltd,Fecto Cement Ltd,16,CEMENT,FECTC,https://admin.askanalyst.com.pk/logo16/FECTC.svg
+112,112,FML,Feroze 1888 Mills Ltd,Feroze 1888 Mills Ltd,7,TEXTILE COMPOSITE,FML,https://admin.askanalyst.com.pk/logo16/FML.svg
+113,113,FEROZ,Ferozsons Laboratories Ltd,Ferozsons Laboratories Ltd,1,PHARMACEUTICALS,FEROZ,https://admin.askanalyst.com.pk/logo16/FEROZ.svg
+114,114,FLYNG,Flying Cement Company Ltd,Flying Cement Company Ltd,16,CEMENT,FLYNG,https://admin.askanalyst.com.pk/logo16/FLYNG.svg
+115,115,FCEPL,FrieslandCampina Engro Pakistan Ltd,FrieslandCampina Engro Pakistan Ltd,8,FOOD & PERSONAL CARE PRODUCTS,FCEPL,https://admin.askanalyst.com.pk/logo16/FCEPL.svg
+116,116,FRCL,Frontier Ceramics Ltd,Frontier Ceramics Ltd,20,GLASS & CERAMICS,FRCL,https://admin.askanalyst.com.pk/logo16/FRCL.svg
+117,117,GADT,Gadoon Textile Mills Ltd,Gadoon Textile Mills Ltd,12,TEXTILE SPINNING,GADT,https://admin.askanalyst.com.pk/logo16/GADT.svg
+118,118,GATI,Gatron (Industries) Ltd,Gatron (Industries) Ltd,9,SYNTHETIC & RAYON,GATI,https://admin.askanalyst.com.pk/logo16/GATI.svg
+119,119,GHNI,Ghandhara Industries Ltd,Ghandhara Industries Ltd,10,AUTOMOBILE ASSEMBLER,GHNI,https://admin.askanalyst.com.pk/logo16/GHNI.svg
+120,120,GAL,Ghandhara Automobiles Limited,Ghandhara Automobiles Limited,10,AUTOMOBILE ASSEMBLER,GAL,https://admin.askanalyst.com.pk/logo16/GAL.svg
+121,121,GHGL,Ghani Glass Ltd,Ghani Glass Ltd,20,GLASS & CERAMICS,GHGL,https://admin.askanalyst.com.pk/logo16/GHGL.svg
+122,122,GGGL,Ghani Global Glass Ltd,Ghani Global Glass Ltd,20,GLASS & CERAMICS,GGGL,https://admin.askanalyst.com.pk/logo16/GGGL.svg
+123,123,GGL,Ghani Global Holdings Ltd. (Ghani Gases Ltd),Ghani Global Holdings Ltd. (Ghani Gases Ltd),6,CHEMICAL,GGL,https://admin.askanalyst.com.pk/logo16/GGL.svg
+124,124,GVGL,Ghani Value Glass Ltd,Ghani Value Glass Ltd,20,GLASS & CERAMICS,GVGL,https://admin.askanalyst.com.pk/logo16/GVGL.svg
+125,125,GWLC,Gharibwal Cement Ltd,Gharibwal Cement Ltd,16,CEMENT,GWLC,https://admin.askanalyst.com.pk/logo16/GWLC.svg
+126,126,GLPL,Gillette Pakistan Ltd,Gillette Pakistan Ltd,8,FOOD & PERSONAL CARE PRODUCTS,GLPL,https://admin.askanalyst.com.pk/logo16/GLPL.svg
+127,127,HALEON,Haleon Pakistan Ltd,Haleon Pakistan Ltd,1,PHARMACEUTICALS,HALEON,https://admin.askanalyst.com.pk/logo16/HALEON.svg
+128,128,GLAXO,GlaxoSmithKline Pakistan Ltd,GlaxoSmithKline Pakistan Ltd,1,PHARMACEUTICALS,GLAXO,https://admin.askanalyst.com.pk/logo16/GLAXO.svg
+129,129,GOC,GOC (Pak) Ltd,GOC (Pak) Ltd,11,MISCELLANEOUS,GOC,https://admin.askanalyst.com.pk/logo16/GOC.svg
+130,130,GIL,Goodluck Industries Ltd,Goodluck Industries Ltd,8,FOOD & PERSONAL CARE PRODUCTS,GIL,https://admin.askanalyst.com.pk/logo16/GIL.svg
+131,131,GRYL,Grays Leasing Ltd,Grays Leasing Ltd,28,LEASING COMPANIES,GRYL,https://admin.askanalyst.com.pk/logo16/GRYL.svg
+132,132,GATM,Gul Ahmed Textile Mills Ltd,Gul Ahmed Textile Mills Ltd,7,TEXTILE COMPOSITE,GATM,https://admin.askanalyst.com.pk/logo16/GATM.svg
+133,133,HBL,Habib Bank Ltd,Habib Bank Ltd,13,COMMERCIAL BANKS,HBL,https://admin.askanalyst.com.pk/logo16/HBL.svg
+134,134,HICL,Habib Insurance Company Ltd,Habib Insurance Company Ltd,3,INSURANCE,HICL,https://admin.askanalyst.com.pk/logo16/HICL.svg
+135,135,HMB,Habib Metropolitan Bank Ltd,Habib Metropolitan Bank Ltd,13,COMMERCIAL BANKS,HMB,https://admin.askanalyst.com.pk/logo16/HMB.svg
+136,136,HRPL,Habib Rice Product Ltd,Habib Rice Product Ltd,2,SUGAR & ALLIED INDUSTRIES,HRPL,https://admin.askanalyst.com.pk/logo16/HRPL.svg
+137,137,HABSM,Habib Sugar Mills Ltd,Habib Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,HABSM,https://admin.askanalyst.com.pk/logo16/HABSM.svg
+138,138,HASCOL,Hascol Petroleum Ltd,Hascol Petroleum Ltd,17,OIL & GAS MARKETING COMPANIES,HASCOL,https://admin.askanalyst.com.pk/logo16/HASCOL.svg
+139,139,HTL,HI-Tech Lubricants,HI-Tech Lubricants,17,OIL & GAS MARKETING COMPANIES,HTL,https://admin.askanalyst.com.pk/logo16/HTL.svg
+140,140,HINOON,Highnoon Laboratories Ltd,Highnoon Laboratories Ltd,1,PHARMACEUTICALS,HINOON,https://admin.askanalyst.com.pk/logo16/HINOON.svg
+141,141,HINO,Hinopak Motors Ltd,Hinopak Motors Ltd,10,AUTOMOBILE ASSEMBLER,HINO,https://admin.askanalyst.com.pk/logo16/HINO.svg
+142,142,HIRAT,Hira Textile Mills Ltd,Hira Textile Mills Ltd,12,TEXTILE SPINNING,HIRAT,https://admin.askanalyst.com.pk/logo16/HIRAT.svg
+143,143,HCAR,Honda Atlas Cars (Pakistan) Ltd,Honda Atlas Cars (Pakistan) Ltd,10,AUTOMOBILE ASSEMBLER,HCAR,https://admin.askanalyst.com.pk/logo16/HCAR.svg
+144,144,HSPI,Huffaz Seamless Pipe Industries Ltd,Huffaz Seamless Pipe Industries Ltd,4,ENGINEERING,HSPI,https://admin.askanalyst.com.pk/logo16/HSPI.svg
+145,145,HUMNL,Hum Network Ltd,Hum Network Ltd,19,TECHNOLOGY & COMMUNICATION,HUMNL,https://admin.askanalyst.com.pk/logo16/HUMNL.svg
+146,146,TCORP,Tariq Corporation Limited,Tariq Corporation Limited,2,SUGAR & ALLIED INDUSTRIES,TCORP,https://admin.askanalyst.com.pk/logo16/TCORP.svg
+147,147,IBLHL,IBL HealthCare Ltd,IBL HealthCare Ltd,1,PHARMACEUTICALS,IBLHL,https://admin.askanalyst.com.pk/logo16/IBLHL.svg
+148,148,IBFL,Ibrahim Fibres Ltd,Ibrahim Fibres Ltd,9,SYNTHETIC & RAYON,IBFL,https://admin.askanalyst.com.pk/logo16/IBFL.svg
+149,149,ICCI,ICC Industries Ltd,ICC Industries Ltd,29,TEXTILE WEAVING,ICCI,https://admin.askanalyst.com.pk/logo16/ICCI.svg
+150,150,LCI,Lucky Core Industries Ltd,Lucky Core Industries Ltd,6,CHEMICAL,LCI,https://admin.askanalyst.com.pk/logo16/LCI.svg
+151,151,IDRT,Idrees Textile Mills Ltd,Idrees Textile Mills Ltd,12,TEXTILE SPINNING,IDRT,https://admin.askanalyst.com.pk/logo16/IDRT.svg
+152,152,IGIHL,IGI Holdings Ltd,IGI Holdings Ltd,3,INSURANCE,IGIHL,https://admin.askanalyst.com.pk/logo16/IGIHL.svg
+153,153,IMAGE,Image Pakistan Ltd,Image Pakistan Ltd,9,SYNTHETIC & RAYON,IMAGE,https://admin.askanalyst.com.pk/logo16/IMAGE.svg
+154,154,IML,Imperial Ltd,Imperial Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,IML,https://admin.askanalyst.com.pk/logo16/IML.svg
+155,155,IDYM,Indus Dyeing & Manufacturing Co. Ltd,Indus Dyeing & Manufacturing Co. Ltd,12,TEXTILE SPINNING,IDYM,https://admin.askanalyst.com.pk/logo16/IDYM.svg
+156,156,INDU,Indus Motor Company Ltd,Indus Motor Company Ltd,10,AUTOMOBILE ASSEMBLER,INDU,https://admin.askanalyst.com.pk/logo16/INDU.svg
+157,157,ILP,Interloop Ltd,Interloop Ltd,7,TEXTILE COMPOSITE,ILP,https://admin.askanalyst.com.pk/logo16/ILP.svg
+158,158,INIL,International Industries Ltd,International Industries Ltd,4,ENGINEERING,INIL,https://admin.askanalyst.com.pk/logo16/INIL.svg
+159,159,ISL,International Steels Ltd,International Steels Ltd,4,ENGINEERING,ISL,https://admin.askanalyst.com.pk/logo16/ISL.svg
+160,160,ISIL,Ismail Industries Ltd,Ismail Industries Ltd,8,FOOD & PERSONAL CARE PRODUCTS,ISIL,https://admin.askanalyst.com.pk/logo16/ISIL.svg
+161,161,ITTEFAQ,Ittefaq Iron Industries Ltd,Ittefaq Iron Industries Ltd,4,ENGINEERING,ITTEFAQ,https://admin.askanalyst.com.pk/logo16/ITTEFAQ.svg
+162,162,ICL,Ittehad Chemicals Ltd,Ittehad Chemicals Ltd,6,CHEMICAL,ICL,https://admin.askanalyst.com.pk/logo16/ICL.svg
+163,163,JKSM,J.K. Spinning Mills Ltd,J.K. Spinning Mills Ltd,12,TEXTILE SPINNING,JKSM,https://admin.askanalyst.com.pk/logo16/JKSM.svg
+164,164,JDMT,Janana De Malucho Textile Mills Ltd,Janana De Malucho Textile Mills Ltd,12,TEXTILE SPINNING,JDMT,https://admin.askanalyst.com.pk/logo16/JDMT.svg
+165,165,JPGL,Japan Power Generation Ltd,Japan Power Generation Ltd,14,POWER GENERATION & DISTRIBUTION,JPGL,https://admin.askanalyst.com.pk/logo16/JPGL.svg
+166,166,JVDC,Javedan Corporation Ltd,Javedan Corporation Ltd,16,CEMENT,JVDC,https://admin.askanalyst.com.pk/logo16/JVDC.svg
+167,167,JDWS,JDW Sugar Mills Ltd,JDW Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,JDWS,https://admin.askanalyst.com.pk/logo16/JDWS.svg
+168,168,JSBL,JS Bank Ltd,JS Bank Ltd,13,COMMERCIAL BANKS,JSBL,https://admin.askanalyst.com.pk/logo16/JSBL.svg
+169,169,JSGCL,JS Global Capital Ltd,JS Global Capital Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,JSGCL,https://admin.askanalyst.com.pk/logo16/JSGCL.svg
+170,170,JGICL,Jubilee General Insurance Company Ltd,Jubilee General Insurance Company Ltd,3,INSURANCE,JGICL,https://admin.askanalyst.com.pk/logo16/JGICL.svg
+171,171,JLICL,Jubilee Life Insurance Company Ltd,Jubilee Life Insurance Company Ltd,3,INSURANCE,JLICL,https://admin.askanalyst.com.pk/logo16/JLICL.svg
+172,172,JUBS,Jubilee Spinning & Weaving Mills Ltd,Jubilee Spinning & Weaving Mills Ltd,7,TEXTILE COMPOSITE,JUBS,https://admin.askanalyst.com.pk/logo16/JUBS.svg
+173,173,KEL,K-Electric Ltd,K-Electric Ltd,14,POWER GENERATION & DISTRIBUTION,KEL,https://admin.askanalyst.com.pk/logo16/KEL.svg
+174,174,KCL,Karam Ceramics Ltd,Karam Ceramics Ltd,20,GLASS & CERAMICS,KCL,https://admin.askanalyst.com.pk/logo16/KCL.svg
+175,175,KPUS,Khairpur Sugar Mills Ltd,Khairpur Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,KPUS,https://admin.askanalyst.com.pk/logo16/KPUS.svg
+176,176,KHYT,Khyber Textile Mills Ltd,Khyber Textile Mills Ltd,7,TEXTILE COMPOSITE,KHYT,https://admin.askanalyst.com.pk/logo16/KHYT.svg
+177,177,KHTC,Khyber Tobacco Company Ltd,Khyber Tobacco Company Ltd,30,TOBACCO,KHTC,https://admin.askanalyst.com.pk/logo16/KHTC.svg
+178,178,KOHC,Kohat Cement Company Ltd,Kohat Cement Company Ltd,16,CEMENT,KOHC,https://admin.askanalyst.com.pk/logo16/KOHC.svg
+179,179,KOHTM,Kohat Textile Mills Ltd,Kohat Textile Mills Ltd,12,TEXTILE SPINNING,KOHTM,https://admin.askanalyst.com.pk/logo16/KOHTM.svg
+180,180,KOHE,Kohinoor Energy Ltd,Kohinoor Energy Ltd,14,POWER GENERATION & DISTRIBUTION,KOHE,https://admin.askanalyst.com.pk/logo16/KOHE.svg
+181,181,KML,Kohinoor Mills Ltd,Kohinoor Mills Ltd,7,TEXTILE COMPOSITE,KML,https://admin.askanalyst.com.pk/logo16/KML.svg
+182,182,KOSM,Kohinoor Spinning Mills Ltd,Kohinoor Spinning Mills Ltd,12,TEXTILE SPINNING,KOSM,https://admin.askanalyst.com.pk/logo16/KOSM.svg
+183,183,KTML,Kohinoor Textile Mills Ltd,Kohinoor Textile Mills Ltd,7,TEXTILE COMPOSITE,KTML,https://admin.askanalyst.com.pk/logo16/KTML.svg
+184,184,KAPCO,Kot Addu Power Company Ltd,Kot Addu Power Company Ltd,14,POWER GENERATION & DISTRIBUTION,KAPCO,https://admin.askanalyst.com.pk/logo16/KAPCO.svg
+185,185,KSBP,KSB Pumps Company Ltd,KSB Pumps Company Ltd,4,ENGINEERING,KSBP,https://admin.askanalyst.com.pk/logo16/KSBP.svg
+186,186,LPL,Lalpir Power Ltd,Lalpir Power Ltd,14,POWER GENERATION & DISTRIBUTION,LPL,https://admin.askanalyst.com.pk/logo16/LPL.svg
+187,187,LOADS,Loads Ltd,Loads Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,LOADS,https://admin.askanalyst.com.pk/logo16/LOADS.svg
+188,188,LOTCHEM,Lotte Chemical Pakistan Ltd,Lotte Chemical Pakistan Ltd,6,CHEMICAL,LOTCHEM,https://admin.askanalyst.com.pk/logo16/LOTCHEM.svg
+189,189,LUCK,Lucky Cement Ltd,Lucky Cement Ltd,16,CEMENT,LUCK,https://admin.askanalyst.com.pk/logo16/LUCK.svg
+190,190,MACFL,MACPAC Films Ltd,MACPAC Films Ltd,11,MISCELLANEOUS,MACFL,https://admin.askanalyst.com.pk/logo16/MACFL.svg
+191,191,MACTER,Macter International Ltd,Macter International Ltd,1,PHARMACEUTICALS,MACTER,https://admin.askanalyst.com.pk/logo16/MACTER.svg
+192,192,MEHT,Mahmood Textile Mills Ltd,Mahmood Textile Mills Ltd,7,TEXTILE COMPOSITE,MEHT,https://admin.askanalyst.com.pk/logo16/MEHT.svg
+193,193,MLCF,Maple Leaf Cement Factory Ltd,Maple Leaf Cement Factory Ltd,16,CEMENT,MLCF,https://admin.askanalyst.com.pk/logo16/MLCF.svg
+194,194,MARI,Mari Energies Limited,Mari Energies Limited,31,OIL & GAS EXPLORATION COMPANIES,MARI,https://admin.askanalyst.com.pk/logo16/MARI.svg
+195,195,MSOT,Masood Textile Mills Ltd,Masood Textile Mills Ltd,7,TEXTILE COMPOSITE,MSOT,https://admin.askanalyst.com.pk/logo16/MSOT.svg
+196,196,MFL,Matco Foods Ltd,Matco Foods Ltd,8,FOOD & PERSONAL CARE PRODUCTS,MFL,https://admin.askanalyst.com.pk/logo16/MFL.svg
+197,197,MCB,MCB Bank Ltd,MCB Bank Ltd,13,COMMERCIAL BANKS,MCB,https://admin.askanalyst.com.pk/logo16/MCB.svg
+198,198,MDTL,Media Times Ltd,Media Times Ltd,19,TECHNOLOGY & COMMUNICATION,MDTL,https://admin.askanalyst.com.pk/logo16/MDTL.svg
+199,199,MEBL,Meezan Bank Ltd,Meezan Bank Ltd,13,COMMERCIAL BANKS,MEBL,https://admin.askanalyst.com.pk/logo16/MEBL.svg
+200,200,MRNS,Mehran Sugar Mills Ltd,Mehran Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,MRNS,https://admin.askanalyst.com.pk/logo16/MRNS.svg
+201,201,MERIT,Merit Packaging Ltd,Merit Packaging Ltd,23,PAPER & BOARD,MERIT,https://admin.askanalyst.com.pk/logo16/MERIT.svg
+202,202,MTL,Millat Tractors Ltd,Millat Tractors Ltd,10,AUTOMOBILE ASSEMBLER,MTL,https://admin.askanalyst.com.pk/logo16/MTL.svg
+203,203,MIRKS,Mirpurkhas Sugar Mills Ltd,Mirpurkhas Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,MIRKS,https://admin.askanalyst.com.pk/logo16/MIRKS.svg
+204,204,MFFL,Mitchell's Fruit Farms Ltd,Mitchell's Fruit Farms Ltd,8,FOOD & PERSONAL CARE PRODUCTS,MFFL,https://admin.askanalyst.com.pk/logo16/MFFL.svg
+205,205,MUGHAL,Mughal Iron and Steel Industries Ltd,Mughal Iron and Steel Industries Ltd,4,ENGINEERING,MUGHAL,https://admin.askanalyst.com.pk/logo16/MUGHAL.svg
+206,206,MUREB,Murree Brewery Co. Ltd,Murree Brewery Co. Ltd,8,FOOD & PERSONAL CARE PRODUCTS,MUREB,https://admin.askanalyst.com.pk/logo16/MUREB.svg
+207,207,NATM,Nadeem Textile Mills Ltd,Nadeem Textile Mills Ltd,12,TEXTILE SPINNING,NATM,https://admin.askanalyst.com.pk/logo16/NATM.svg
+208,208,NAGC,Nagina Cotton Mills Ltd,Nagina Cotton Mills Ltd,12,TEXTILE SPINNING,NAGC,https://admin.askanalyst.com.pk/logo16/NAGC.svg
+209,209,NBP,National Bank Of Pakistan,National Bank Of Pakistan,13,COMMERCIAL BANKS,NBP,https://admin.askanalyst.com.pk/logo16/NBP.svg
+210,210,NATF,National Foods Ltd,National Foods Ltd,8,FOOD & PERSONAL CARE PRODUCTS,NATF,https://admin.askanalyst.com.pk/logo16/NATF.svg
+211,211,NRL,National Refinery Ltd,National Refinery Ltd,18,REFINERY,NRL,https://admin.askanalyst.com.pk/logo16/NRL.svg
+212,212,NCML,Nazir Cotton Mills Ltd,Nazir Cotton Mills Ltd,12,TEXTILE SPINNING,NCML,https://admin.askanalyst.com.pk/logo16/NCML.svg
+213,213,NESTLE,Nestle Pakistan Ltd,Nestle Pakistan Ltd,8,FOOD & PERSONAL CARE PRODUCTS,NESTLE,https://admin.askanalyst.com.pk/logo16/NESTLE.svg
+214,214,NETSOL,Netsol Technologies Ltd,Netsol Technologies Ltd,19,TECHNOLOGY & COMMUNICATION,NETSOL,https://admin.askanalyst.com.pk/logo16/NETSOL.svg
+215,215,NEXT,Next Capital Ltd,Next Capital Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,NEXT,https://admin.askanalyst.com.pk/logo16/NEXT.svg
+216,216,NICL,Nimir Industrial Chemicals Ltd,Nimir Industrial Chemicals Ltd,6,CHEMICAL,NICL,https://admin.askanalyst.com.pk/logo16/NICL.svg
+217,217,NRSL,Nimir Resins Ltd,Nimir Resins Ltd,6,CHEMICAL,NRSL,https://admin.askanalyst.com.pk/logo16/NRSL.svg
+218,218,NCL,Nishat (Chunian) Ltd,Nishat (Chunian) Ltd,7,TEXTILE COMPOSITE,NCL,https://admin.askanalyst.com.pk/logo16/NCL.svg
+219,219,NCPL,Nishat Chunian Power Ltd,Nishat Chunian Power Ltd,14,POWER GENERATION & DISTRIBUTION,NCPL,https://admin.askanalyst.com.pk/logo16/NCPL.svg
+220,220,NML,Nishat Mills Ltd,Nishat Mills Ltd,7,TEXTILE COMPOSITE,NML,https://admin.askanalyst.com.pk/logo16/NML.svg
+221,221,NPL,Nishat Power Ltd,Nishat Power Ltd,14,POWER GENERATION & DISTRIBUTION,NPL,https://admin.askanalyst.com.pk/logo16/NPL.svg
+222,222,NONS,Noon Sugar Mills Ltd,Noon Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,NONS,https://admin.askanalyst.com.pk/logo16/NONS.svg
+223,223,OGDC,Oil & Gas Development Company Ltd,Oil & Gas Development Company Ltd,31,OIL & GAS EXPLORATION COMPANIES,OGDC,https://admin.askanalyst.com.pk/logo16/OGDC.svg
+224,224,OLPL,OLP Financial Services Pakistan Ltd,OLP Financial Services Pakistan Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,OLPL,https://admin.askanalyst.com.pk/logo16/OLPL.svg
+225,225,OTSU,Otsuka Pakistan Ltd,Otsuka Pakistan Ltd,1,PHARMACEUTICALS,OTSU,https://admin.askanalyst.com.pk/logo16/OTSU.svg
+226,226,PACE,Pace (Pakistan) Ltd,Pace (Pakistan) Ltd,11,MISCELLANEOUS,PACE,https://admin.askanalyst.com.pk/logo16/PACE.svg
+227,227,PKGS,Packages Ltd,Packages Ltd,23,PAPER & BOARD,PKGS,https://admin.askanalyst.com.pk/logo16/PKGS.svg
+228,228,PAKD,Pak Datacom Ltd,Pak Datacom Ltd,19,TECHNOLOGY & COMMUNICATION,PAKD,https://admin.askanalyst.com.pk/logo16/PAKD.svg
+229,229,PAEL,Pak Elektron Ltd,Pak Elektron Ltd,26,CABLE & ELECTRICAL GOODS,PAEL,https://admin.askanalyst.com.pk/logo16/PAEL.svg
+230,230,PSMC,Pak Suzuki Motor Co. Ltd,Pak Suzuki Motor Co. Ltd,10,AUTOMOBILE ASSEMBLER,PSMC,https://admin.askanalyst.com.pk/logo16/PSMC.svg
+231,231,PGLC,Pak-Gulf Leasing Company Ltd,Pak-Gulf Leasing Company Ltd,28,LEASING COMPANIES,PGLC,https://admin.askanalyst.com.pk/logo16/PGLC.svg
+232,232,PKGP,Pakgen Power Ltd,Pakgen Power Ltd,14,POWER GENERATION & DISTRIBUTION,PKGP,https://admin.askanalyst.com.pk/logo16/PKGP.svg
+233,233,PCAL,Pakistan Cables Ltd,Pakistan Cables Ltd,26,CABLE & ELECTRICAL GOODS,PCAL,https://admin.askanalyst.com.pk/logo16/PCAL.svg
+234,234,PECO,Pakistan Engineering Company Ltd,Pakistan Engineering Company Ltd,4,ENGINEERING,PECO,https://admin.askanalyst.com.pk/logo16/PECO.svg
+235,235,PHDL,Pakistan Hotels Developers Ltd,Pakistan Hotels Developers Ltd,11,MISCELLANEOUS,PHDL,https://admin.askanalyst.com.pk/logo16/PHDL.svg
+236,236,PIAHCLA,PIA Holding Company Ltd,PIA Holding Company Ltd,15,INV. BANKS,PIAHCLA,https://admin.askanalyst.com.pk/logo16/PIAHCLA.svg
+237,237,PIBTL,Pakistan International Bulk Terminal Ltd,Pakistan International Bulk Terminal Ltd,32,TRANSPORT,PIBTL,https://admin.askanalyst.com.pk/logo16/PIBTL.svg
+238,238,PICT,Pakistan International Container Terminal Ltd,Pakistan International Container Terminal Ltd,32,TRANSPORT,PICT,https://admin.askanalyst.com.pk/logo16/PICT.svg
+239,239,PNSC,Pakistan National Shipping Corporation,Pakistan National Shipping Corporation,32,TRANSPORT,PNSC,https://admin.askanalyst.com.pk/logo16/PNSC.svg
+240,240,POL,Pakistan Oilfields Ltd,Pakistan Oilfields Ltd,31,OIL & GAS EXPLORATION COMPANIES,POL,https://admin.askanalyst.com.pk/logo16/POL.svg
+241,241,PAKOXY,Pakistan Oxygen Ltd,Pakistan Oxygen Ltd,6,CHEMICAL,PAKOXY,https://admin.askanalyst.com.pk/logo16/PAKOXY.svg
+242,242,PPP,Pakistan Paper Products Ltd,Pakistan Paper Products Ltd,23,PAPER & BOARD,PPP,https://admin.askanalyst.com.pk/logo16/PPP.svg
+243,243,PPL,Pakistan Petroleum Ltd,Pakistan Petroleum Ltd,31,OIL & GAS EXPLORATION COMPANIES,PPL,https://admin.askanalyst.com.pk/logo16/PPL.svg
+244,244,PRL,Pakistan Refinery Ltd,Pakistan Refinery Ltd,18,REFINERY,PRL,https://admin.askanalyst.com.pk/logo16/PRL.svg
+245,245,PAKRI,Pakistan Reinsurance Company Ltd,Pakistan Reinsurance Company Ltd,3,INSURANCE,PAKRI,https://admin.askanalyst.com.pk/logo16/PAKRI.svg
+246,246,PSEL,Pakistan Services Ltd,Pakistan Services Ltd,11,MISCELLANEOUS,PSEL,https://admin.askanalyst.com.pk/logo16/PSEL.svg
+247,247,PSO,Pakistan State Oil Company Ltd,Pakistan State Oil Company Ltd,17,OIL & GAS MARKETING COMPANIES,PSO,https://admin.askanalyst.com.pk/logo16/PSO.svg
+248,248,PSX,Pakistan Stock Exchange Ltd,Pakistan Stock Exchange Ltd,15,INV. BANKS / INV. COS. / SECURITIES COS.,PSX,https://admin.askanalyst.com.pk/logo16/PSX.svg
+249,249,PSYL,Pakistan Synthetics Ltd,Pakistan Synthetics Ltd,9,SYNTHETIC & RAYON,PSYL,https://admin.askanalyst.com.pk/logo16/PSYL.svg
+250,250,PTC,Pakistan Telecommunication Company Ltd,Pakistan Telecommunication Company Ltd,19,TECHNOLOGY & COMMUNICATION,PTC,https://admin.askanalyst.com.pk/logo16/PTC.svg
+251,251,PAKT,Pakistan Tobacco Company Ltd,Pakistan Tobacco Company Ltd,30,TOBACCO,PAKT,https://admin.askanalyst.com.pk/logo16/PAKT.svg
+252,252,PMPK,Philip Morris (Pakistan) Ltd,Philip Morris (Pakistan) Ltd,30,TOBACCO,PMPK,https://admin.askanalyst.com.pk/logo16/PMPK.svg
+253,253,PIL,PICIC Insurance Ltd,PICIC Insurance Ltd,3,INSURANCE,PIL,https://admin.askanalyst.com.pk/logo16/PIL.svg
+254,254,PIOC,Pioneer Cement Ltd,Pioneer Cement Ltd,16,CEMENT,PIOC,https://admin.askanalyst.com.pk/logo16/PIOC.svg
+255,255,POWER,Power Cement Ltd,Power Cement Ltd,16,CEMENT,POWER,https://admin.askanalyst.com.pk/logo16/POWER.svg
+256,256,PINL,Premier Insurance Ltd,Premier Insurance Ltd,3,INSURANCE,PINL,https://admin.askanalyst.com.pk/logo16/PINL.svg
+257,257,PRET,Premium Textile Mills Ltd,Premium Textile Mills Ltd,12,TEXTILE SPINNING,PRET,https://admin.askanalyst.com.pk/logo16/PRET.svg
+258,258,PRWM,Prosperity Weaving Mills Ltd,Prosperity Weaving Mills Ltd,29,TEXTILE WEAVING,PRWM,https://admin.askanalyst.com.pk/logo16/PRWM.svg
+259,259,POML,Punjab Oil Mills Ltd,Punjab Oil Mills Ltd,33,VANASPATI & ALLIED INDUSTRIES,POML,https://admin.askanalyst.com.pk/logo16/POML.svg
+260,260,QUET,Quetta Textile Mills Ltd,Quetta Textile Mills Ltd,7,TEXTILE COMPOSITE,QUET,https://admin.askanalyst.com.pk/logo16/QUET.svg
+261,261,QUICE,Quice Food Industries Ltd,Quice Food Industries Ltd,8,FOOD & PERSONAL CARE PRODUCTS,QUICE,https://admin.askanalyst.com.pk/logo16/QUICE.svg
+262,262,RMPL,Rafhan Maize Products Co. Ltd,Rafhan Maize Products Co. Ltd,8,FOOD & PERSONAL CARE PRODUCTS,RMPL,https://admin.askanalyst.com.pk/logo16/RMPL.svg
+263,263,RICL,Reliance Insurance Company Ltd,Reliance Insurance Company Ltd,3,INSURANCE,RICL,https://admin.askanalyst.com.pk/logo16/RICL.svg
+264,264,REWM,Reliance Weaving Mills Ltd,Reliance Weaving Mills Ltd,7,TEXTILE COMPOSITE,REWM,https://admin.askanalyst.com.pk/logo16/REWM.svg
+265,265,RPL,Roshan Packages Ltd,Roshan Packages Ltd,23,PAPER & BOARD,RPL,https://admin.askanalyst.com.pk/logo16/RPL.svg
+266,266,RUPL,Rupali Polyester Ltd,Rupali Polyester Ltd,9,SYNTHETIC & RAYON,RUPL,https://admin.askanalyst.com.pk/logo16/RUPL.svg
+267,267,SPWL,Saif Power Ltd,Saif Power Ltd,14,POWER GENERATION & DISTRIBUTION,SPWL,https://admin.askanalyst.com.pk/logo16/SPWL.svg
+268,268,SAIF,Saif Textile Mills Ltd,Saif Textile Mills Ltd,12,TEXTILE SPINNING,SAIF,https://admin.askanalyst.com.pk/logo16/SAIF.svg
+269,269,SKRS,Sakrand Sugar Mills Ltd,Sakrand Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,SKRS,https://admin.askanalyst.com.pk/logo16/SKRS.svg
+270,270,SLYT,Sally Textile Mills Ltd,Sally Textile Mills Ltd,12,TEXTILE SPINNING,SLYT,https://admin.askanalyst.com.pk/logo16/SLYT.svg
+271,271,SBL,Samba Bank Ltd,Samba Bank Ltd,13,COMMERCIAL BANKS,SBL,https://admin.askanalyst.com.pk/logo16/SBL.svg
+272,272,HPL,Hoehcst Pakistan Ltd,Hoehcst Pakistan Ltd,1,PHARMACEUTICALS,HPL,https://admin.askanalyst.com.pk/logo16/HPL.svg
+273,273,SFL,Sapphire Fibres Ltd,Sapphire Fibres Ltd,7,TEXTILE COMPOSITE,SFL,https://admin.askanalyst.com.pk/logo16/SFL.svg
+274,274,SAPT,Sapphire Textile Mills Ltd,Sapphire Textile Mills Ltd,7,TEXTILE COMPOSITE,SAPT,https://admin.askanalyst.com.pk/logo16/SAPT.svg
+275,275,SARC,Sardar Chemical Industries Ltd,Sardar Chemical Industries Ltd,6,CHEMICAL,SARC,https://admin.askanalyst.com.pk/logo16/SARC.svg
+276,276,SPCL,Saudi Pak Consultancy Company Ltd,Saudi Pak Consultancy Company Ltd,28,LEASING COMPANIES,SPCL,https://admin.askanalyst.com.pk/logo16/SPCL.svg
+277,277,SAZEW,Sazgar Engineering Works Ltd,Sazgar Engineering Works Ltd,10,AUTOMOBILE ASSEMBLER,SAZEW,https://admin.askanalyst.com.pk/logo16/SAZEW.svg
+278,278,SLCL,Security Leasing Corporation Ltd,Security Leasing Corporation Ltd,28,LEASING COMPANIES,SLCL,https://admin.askanalyst.com.pk/logo16/SLCL.svg
+279,279,SEPL,Security Papers Ltd,Security Papers Ltd,23,PAPER & BOARD,SEPL,https://admin.askanalyst.com.pk/logo16/SEPL.svg
+280,280,SRVI,Service Industries Ltd,Service Industries Ltd,22,LEATHER & TANNERIES,SRVI,https://admin.askanalyst.com.pk/logo16/SRVI.svg
+281,281,STCL,Shabbir Tiles & Ceramics Ltd,Shabbir Tiles & Ceramics Ltd,20,GLASS & CERAMICS,STCL,https://admin.askanalyst.com.pk/logo16/STCL.svg
+282,282,SHDT,Shadab Textile Mills Ltd,Shadab Textile Mills Ltd,12,TEXTILE SPINNING,SHDT,https://admin.askanalyst.com.pk/logo16/SHDT.svg
+283,283,SHNI,Shaheen Insurance Company Ltd,Shaheen Insurance Company Ltd,3,INSURANCE,SHNI,https://admin.askanalyst.com.pk/logo16/SHNI.svg
+284,284,SHSML,Shahmurad Sugar Mills Ltd,Shahmurad Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,SHSML,https://admin.askanalyst.com.pk/logo16/SHSML.svg
+285,285,SHJS,Shahtaj Sugar Mills Ltd,Shahtaj Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,SHJS,https://admin.askanalyst.com.pk/logo16/SHJS.svg
+286,286,SZTM,Shahzad Textile Mills Ltd,Shahzad Textile Mills Ltd,12,TEXTILE SPINNING,SZTM,https://admin.askanalyst.com.pk/logo16/SZTM.svg
+287,287,SML,Shakarganj Ltd,Shakarganj Ltd,2,SUGAR & ALLIED INDUSTRIES,SML,https://admin.askanalyst.com.pk/logo16/SML.svg
+288,288,WAFI,Wafi Energy Pakistan Limited,Wafi Energy Pakistan Limited,17,OIL & GAS MARKETING COMPANIES,WAFI,https://admin.askanalyst.com.pk/logo16/WAFI.svg
+289,289,SHEZ,Shezan International Ltd,Shezan International Ltd,8,FOOD & PERSONAL CARE PRODUCTS,SHEZ,https://admin.askanalyst.com.pk/logo16/SHEZ.svg
+290,290,SCL,Shield Corporation Ltd,Shield Corporation Ltd,8,FOOD & PERSONAL CARE PRODUCTS,SCL,https://admin.askanalyst.com.pk/logo16/SCL.svg
+291,291,SHFA,Shifa International Hospitals Ltd,Shifa International Hospitals Ltd,11,MISCELLANEOUS,SHFA,https://admin.askanalyst.com.pk/logo16/SHFA.svg
+292,292,STPL,Siddiqsons Tin Plate Ltd,Siddiqsons Tin Plate Ltd,11,MISCELLANEOUS,STPL,https://admin.askanalyst.com.pk/logo16/STPL.svg
+293,293,SIEM,Siemens (Pakistan) Engineering Company Ltd,Siemens (Pakistan) Engineering Company Ltd,26,CABLE & ELECTRICAL GOODS,SIEM,https://admin.askanalyst.com.pk/logo16/SIEM.svg
+294,294,SILK,Silkbank Ltd,Silkbank Ltd,13,COMMERCIAL BANKS,SILK,https://admin.askanalyst.com.pk/logo16/SILK.svg
+295,295,SASML,Sindh Abadgar's Sugar Mills Ltd,Sindh Abadgar's Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,SASML,https://admin.askanalyst.com.pk/logo16/SASML.svg
+296,296,SITC,Sitara Chemical Industries Ltd,Sitara Chemical Industries Ltd,6,CHEMICAL,SITC,https://admin.askanalyst.com.pk/logo16/SITC.svg
+297,297,SEL,Sitara Energy Ltd,Sitara Energy Ltd,14,POWER GENERATION & DISTRIBUTION,SEL,https://admin.askanalyst.com.pk/logo16/SEL.svg
+298,298,SPL,Sitara Peroxide Ltd,Sitara Peroxide Ltd,6,CHEMICAL,SPL,https://admin.askanalyst.com.pk/logo16/SPL.svg
+299,299,SNBL,Soneri Bank Ltd,Soneri Bank Ltd,13,COMMERCIAL BANKS,SNBL,https://admin.askanalyst.com.pk/logo16/SNBL.svg
+300,300,SCBPL,Standard Chartered Bank (Pakistan) Ltd,Standard Chartered Bank (Pakistan) Ltd,13,COMMERCIAL BANKS,SCBPL,https://admin.askanalyst.com.pk/logo16/SCBPL.svg
+301,301,SNGP,Sui Northern Gas Pipelines Ltd,Sui Northern Gas Pipelines Ltd,17,OIL & GAS MARKETING COMPANIES,SNGP,https://admin.askanalyst.com.pk/logo16/SNGP.svg
+302,302,SSGC,Sui Southern Gas Company Ltd,Sui Southern Gas Company Ltd,17,OIL & GAS MARKETING COMPANIES,SSGC,https://admin.askanalyst.com.pk/logo16/SSGC.svg
+303,303,BML,Bank Makramah Ltd,Bank Makramah Ltd,13,COMMERCIAL BANKS,BML,https://admin.askanalyst.com.pk/logo16/BML.svg
+304,304,SUTM,Sunrays Textile Mills Ltd,Sunrays Textile Mills Ltd,12,TEXTILE SPINNING,SUTM,https://admin.askanalyst.com.pk/logo16/SUTM.svg
+305,305,SURC,Suraj Cotton Mills Ltd,Suraj Cotton Mills Ltd,7,TEXTILE COMPOSITE,SURC,https://admin.askanalyst.com.pk/logo16/SURC.svg
+306,306,SPEL,SPEL Ltd,SPEL Ltd,11,MISCELLANEOUS,SPEL,https://admin.askanalyst.com.pk/logo16/SPEL.svg
+307,307,SYS,Systems Ltd,Systems Ltd,19,TECHNOLOGY & COMMUNICATION,SYS,https://admin.askanalyst.com.pk/logo16/SYS.svg
+308,308,TSML,Tandlianwala Sugar Mills Ltd,Tandlianwala Sugar Mills Ltd,2,SUGAR & ALLIED INDUSTRIES,TSML,https://admin.askanalyst.com.pk/logo16/TSML.svg
+309,309,TGL,Tariq Glass Industries Ltd,Tariq Glass Industries Ltd,20,GLASS & CERAMICS,TGL,https://admin.askanalyst.com.pk/logo16/TGL.svg
+310,310,TATM,Tata Textile Mills Ltd,Tata Textile Mills Ltd,12,TEXTILE SPINNING,TATM,https://admin.askanalyst.com.pk/logo16/TATM.svg
+311,311,TELE,Telecard Ltd,Telecard Ltd,19,TECHNOLOGY & COMMUNICATION,TELE,https://admin.askanalyst.com.pk/logo16/TELE.svg
+312,312,THALL,Thal Ltd,Thal Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,THALL,https://admin.askanalyst.com.pk/logo16/THALL.svg
+313,313,THCCL,Thatta Cement Company Ltd,Thatta Cement Company Ltd,16,CEMENT,THCCL,https://admin.askanalyst.com.pk/logo16/THCCL.svg
+314,314,BOK,The Bank of Khyber,The Bank of Khyber,13,COMMERCIAL BANKS,BOK,https://admin.askanalyst.com.pk/logo16/BOK.svg
+315,315,BOP,The Bank of Punjab,The Bank of Punjab,13,COMMERCIAL BANKS,BOP,https://admin.askanalyst.com.pk/logo16/BOP.svg
+316,316,CRTM,The Crescent Textile Mills Ltd,The Crescent Textile Mills Ltd,7,TEXTILE COMPOSITE,CRTM,https://admin.askanalyst.com.pk/logo16/CRTM.svg
+317,317,GTYR,The General Tyre & Rubber Company Ltd,The General Tyre & Rubber Company Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,GTYR,https://admin.askanalyst.com.pk/logo16/GTYR.svg
+318,318,HUBC,The Hub Power Company Ltd,The Hub Power Company Ltd,14,POWER GENERATION & DISTRIBUTION,HUBC,https://admin.askanalyst.com.pk/logo16/HUBC.svg
+319,319,TOMCL,The Organic Meat Company Ltd,The Organic Meat Company Ltd,8,FOOD & PERSONAL CARE PRODUCTS,TOMCL,https://admin.askanalyst.com.pk/logo16/TOMCL.svg
+320,320,PKGI,The Pakistan General Insurance Co. Ltd,The Pakistan General Insurance Co. Ltd,3,INSURANCE,PKGI,https://admin.askanalyst.com.pk/logo16/PKGI.svg
+321,321,PMRS,The Premier Sugar Mills & Distillery Co. Ltd,The Premier Sugar Mills & Distillery Co. Ltd,2,SUGAR & ALLIED INDUSTRIES,PMRS,https://admin.askanalyst.com.pk/logo16/PMRS.svg
+322,322,SEARL,The Searle Company Ltd,The Searle Company Ltd,1,PHARMACEUTICALS,SEARL,https://admin.askanalyst.com.pk/logo16/SEARL.svg
+323,323,TICL,The Thal Industries Corporation Ltd,The Thal Industries Corporation Ltd,2,SUGAR & ALLIED INDUSTRIES,TICL,https://admin.askanalyst.com.pk/logo16/TICL.svg
+324,324,UNIC,The United Insurance Company,The United Insurance Company,3,INSURANCE,UNIC,https://admin.askanalyst.com.pk/logo16/UNIC.svg
+325,325,UVIC,The Universal Insurance Co. Ltd,The Universal Insurance Co. Ltd,3,INSURANCE,UVIC,https://admin.askanalyst.com.pk/logo16/UVIC.svg
+326,326,TOWL,Towellers Ltd,Towellers Ltd,7,TEXTILE COMPOSITE,TOWL,https://admin.askanalyst.com.pk/logo16/TOWL.svg
+327,327,TPL,TPL Corporation Ltd,TPL Corporation Ltd,19,TECHNOLOGY & COMMUNICATION,TPL,https://admin.askanalyst.com.pk/logo16/TPL.svg
+328,328,TPLI,TPL Insurance Ltd,TPL Insurance Ltd,3,INSURANCE,TPLI,https://admin.askanalyst.com.pk/logo16/TPLI.svg
+329,329,TREET,Treet Corporation Ltd,Treet Corporation Ltd,8,FOOD & PERSONAL CARE PRODUCTS,TREET,https://admin.askanalyst.com.pk/logo16/TREET.svg
+330,330,TRG,TRG Pakistan Ltd,TRG Pakistan Ltd,19,TECHNOLOGY & COMMUNICATION,TRG,https://admin.askanalyst.com.pk/logo16/TRG.svg
+331,331,TRIPF,Tri-Pack Films Ltd,Tri-Pack Films Ltd,11,MISCELLANEOUS,TRIPF,https://admin.askanalyst.com.pk/logo16/TRIPF.svg
+332,332,UPFL,Unilever Pakistan Foods Ltd,Unilever Pakistan Foods Ltd,8,FOOD & PERSONAL CARE PRODUCTS,UPFL,https://admin.askanalyst.com.pk/logo16/UPFL.svg
+333,333,UBL,United Bank Ltd,United Bank Ltd,13,COMMERCIAL BANKS,UBL,https://admin.askanalyst.com.pk/logo16/UBL.svg
+334,334,UBDL,United Brands Ltd,United Brands Ltd,11,MISCELLANEOUS,UBDL,https://admin.askanalyst.com.pk/logo16/UBDL.svg
+335,335,UDPL,United Distributors Pakistan Ltd,United Distributors Pakistan Ltd,11,MISCELLANEOUS,UDPL,https://admin.askanalyst.com.pk/logo16/UDPL.svg
+336,336,UNITY,Unity Foods Ltd,Unity Foods Ltd,8,FOOD & PERSONAL CARE PRODUCTS,UNITY,https://admin.askanalyst.com.pk/logo16/UNITY.svg
+337,337,WAHN,Wah Nobel Chemicals Ltd,Wah Nobel Chemicals Ltd,6,CHEMICAL,WAHN,https://admin.askanalyst.com.pk/logo16/WAHN.svg
+338,338,WAVES,Waves Corporation Limited,Waves Corporation Limited,26,CABLE & ELECTRICAL GOODS,WAVES,https://admin.askanalyst.com.pk/logo16/WAVES.svg
+339,339,WTL,Worldcall Telecom Ltd,Worldcall Telecom Ltd,19,TECHNOLOGY & COMMUNICATION,WTL,https://admin.askanalyst.com.pk/logo16/WTL.svg
+341,341,YOUW,Yousaf Weaving Mills Ltd,Yousaf Weaving Mills Ltd,29,TEXTILE WEAVING,YOUW,https://admin.askanalyst.com.pk/logo16/YOUW.svg
+342,342,ZIL,ZIL Ltd,ZIL Ltd,8,FOOD & PERSONAL CARE PRODUCTS,ZIL,https://admin.askanalyst.com.pk/logo16/ZIL.svg
+343,343,PABC,Pakistan Aluminium Beverage Cans Ltd,Pakistan Aluminium Beverage Cans Ltd,11,MISCELLANEOUS,PABC,https://admin.askanalyst.com.pk/logo16/PABC.svg
+344,344,BFBIO,BF Biosciences Ltd,BF Biosciences Ltd,1,PHARMACEUTICALS,BFBIO,https://admin.askanalyst.com.pk/logo16/BFBIO.svg
+345,345,CPHL,Citi Pharma Ltd,Citi Pharma Ltd,1,PHARMACEUTICALS,CPHL,https://admin.askanalyst.com.pk/logo16/CPHL.svg
+346,346,PTL,Panther Tyres Ltd,Panther Tyres Ltd,5,AUTOMOBILE PARTS & ACCESSORIES,PTL,https://admin.askanalyst.com.pk/logo16/PTL.svg
+347,347,FCL,Fast Cables Limited,Fast Cables Limited,26,CABLE & ELECTRICAL GOODS,FCL,https://admin.askanalyst.com.pk/logo16/FCL.svg
+348,348,ZAL,Zarea Limited,Zarea Limited,19,TECHNOLOGY & COMMUNICATION,ZAL,https://admin.askanalyst.com.pk/logo16/ZAL.svg
+350,350,BFAGRO,Barkat Frisian Agro Limited,Barkat Frisian Agro Limited,8,FOOD & PERSONAL CARE PRODUCTS,BFAGRO,https://admin.askanalyst.com.pk/logo16/BFAGRO.svg
+351,351,SYM,Symmetry Group Limited,Symmetry Group Limited,19,TECHNOLOGY & COMMUNICATION,SYM,https://admin.askanalyst.com.pk/logo16/SYM.svg
+352,352,OBOY,Oilboy Energy Limited,Oilboy Energy Limited,17,OIL & GAS MARKETING COMPANIES,OBOY,https://admin.askanalyst.com.pk/logo16/OBOY.svg
+353,353,TBL,Treet Battery Limited,Treet Battery Limited,5,AUTOMOBILE PARTS & ACCESSORIES,TBL,https://admin.askanalyst.com.pk/logo16/TBL.svg
+354,354,SGF,Service GlobalFootwear Limited,Service GlobalFootwear Limited,22,LEATHER & TANNERIES,SGF,https://admin.askanalyst.com.pk/logo16/SGF.svg
+356,356,SLGL,Secure Logistics-Trax Group Limited,Secure Logistics-Trax Group Limited,32,TRANSPORT,SLGL,https://admin.askanalyst.com.pk/logo16/SLGL.svg
+357,357,WAVESAPP,Waves Home Appliances Limited,Waves Home Appliances Limited,26,CABLE & ELECTRICAL GOODS,WAVESAPP,https://admin.askanalyst.com.pk/logo16/WAVESAPP.svg
+358,358,OCTOPUS,Octopus Digital Limited,Octopus Digital Limited,19,TECHNOLOGY & COMMUNICATION,OCTOPUS,https://admin.askanalyst.com.pk/logo16/OCTOPUS.svg
+359,359,AIRLINK,Air Link Communication Limited,Air Link Communication Limited,19,TECHNOLOGY & COMMUNICATION,AIRLINK,https://admin.askanalyst.com.pk/logo16/AIRLINK.svg
+360,360,SSOM,S.S.Oil Mills Limited,S.S.Oil Mills Limited,33,VANASPATI & ALLIED INDUSTRIES,SSOM,https://admin.askanalyst.com.pk/logo16/SSOM.svg
+361,361,BBFL,Big Bird Foods Limited,Big Bird Foods Limited,8,FOOD & PERSONAL CARE PRODUCTS,BBFL,https://admin.askanalyst.com.pk/logo16/BBFL.svg
+478,478,GCIL,Ghani Chemical Industries Limited,Ghani Chemical Industries Limited,6,Chemical,GCIL,https://admin.askanalyst.com.pk/logo16/GCIL.svg
+730,730,SMCPL,Safe Mix Concrete Limited,Safe Mix Concrete Limited,16,CEMENT,SMCPL,https://admin.askanalyst.com.pk/logo16/SMCPL.svg
