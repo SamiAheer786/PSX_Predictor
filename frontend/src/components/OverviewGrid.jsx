@@ -12,16 +12,12 @@ const OverviewGrid = ({ title, data, columns = 2 }) => {
             </h3>
             <div className={`grid grid-cols-1 md:grid-cols-${columns} divide-y md:divide-y-0 md:gap-px bg-slate-200 dark:bg-slate-800`}>
                 {items.map((item, index) => (
-                    <div key={index} className="flex justify-between items-center bg-white dark:bg-slate-910 p-3">
+                    <div key={index} className="flex justify-between items-center bg-white dark:bg-slate-900 p-3">
                         <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">{item.label}</span>
                         <span className="text-sm font-semibold text-slate-900 dark:text-slate-100">{item.value || "-"}</span>
                     </div>
                 ))}
             </div>
-            {/* Custom CSS to force grid lines if needed, but gap-px with bg-color works for borders */}
-            <style jsx>{`
-                .dark .bg-slate-910 { background-color: #0f172a; } 
-            `}</style>
         </div>
     );
 };

@@ -147,6 +147,8 @@ def get_overview(company_id: int):
         "industry": proxy_get(f"industrynew/{company_id}"),
         "stock_data": proxy_get(f"stockpricedatanew/{company_id}"),
         "chart_data": proxy_get(f"stockchartnew/{company_id}"),
+        "ratios": proxy_get(f"rationew/{company_id}"),
+        "balance_sheet": proxy_get(f"bs/{company_id}"),
         "quote": scrape_quote(symbol),
         "profile": scrape_company(symbol),
     }

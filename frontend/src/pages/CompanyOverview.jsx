@@ -22,7 +22,7 @@ const CompanyOverview = () => {
     const grids = useMemo(() => {
         if (!data) return {};
 
-        const { quote, stock_data, financials, profile } = data;
+        const { quote, stock_data, financials, chart_data, balance_sheet } = data;
 
         // Helper to find last value in financials/stock_data series
         const getLast = (arr, label) => {
@@ -30,36 +30,106 @@ const CompanyOverview = () => {
             return item?.data?.[item.data.length - 1]?.value || "-";
         };
 
-        // Trading Data
+        // Helper to formatting numbers
+        const fmtNum = (n) => isNaN(n) ? "-" : Number(n).toLocaleString();
+
+        // 1. Trading Data
         const tradingData = [
             { label: "Open", value: quote?.open },
             { label: "High", value: quote?.high },
             { label: "Low", value: quote?.low },
-            { label: "LDCP", value: quote?.last_close }, // Using last close as proxy
+            { label: "LDCP", value: quote?.last_close },
             { label: "Volume", value: quote?.volume },
-            { label: "Value (PKRmn)", value: "-" }, // Not readily available
+            { label: "Value (PKRmn)", value: "-" },
             { label: "Circuit Breaker", value: quote?.circuit_breaker },
             { label: "Day Range", value: quote?.day_range },
         ];
 
-        // Returns & History
-        // Extract 52-week from range string "790.00 — 1,304.00"
+        // 2. Returns & History calculations from Stock Chart Data
+        const getReturn = (labelStr) => {
+            // chart_data is likely an array of objects: [{ lable: "1M", data: [...]}, { lable: "3M", ... }]
+            // Or if it's a single object for "ALL", we might need to filter. 
+            // Based on probe, it's a list. We find the one with matching label.
+            if (!Array.isArray(chart_data)) return "-";
+
+            const item = chart_data.find(d => d.lable === labelStr);
+            if (!item || !item.data || item.data.length < 2) return "-";
+
+            // Sort by date just in case
+            // Assuming data is [{x: "date", y: "price"}, ...]
+            const points = item.data;
+            const first = parseFloat(points[0].y);
+            const last = parseFloat(points[points.length - 1].y);
+
+            if (!first) return "-";
+
+            const ret = ((last - first) / first) * 100;
+            return ret.toFixed(1);
+        };
+
+        // Extract 52-week from range
         const [w52Low, w52High] = quote?.week_52_range?.split(' — ') || ["-", "-"];
+
+        // 52 Week Average: Use "1Y" data if available to calc average
+        const get52WeekAvg = () => {
+            if (!Array.isArray(chart_data)) return "-";
+            const item = chart_data.find(d => d.lable === "1Y") || chart_data.find(d => d.lable === "ALL");
+            if (!item?.data) return "-";
+
+            const sum = item.data.reduce((acc, curr) => acc + (parseFloat(curr.y) || 0), 0);
+            const avg = sum / item.data.length;
+            return avg.toFixed(2);
+        };
 
         const returnsData = [
             { label: "52-Week High", value: w52High },
-            { label: "1M Return (%)", value: "-" }, // Need calculation
-            { label: "1Y Return (%)", value: quote?.one_year_change?.replace('%', '') },
+            { label: "1M Return (%)", value: getReturn("1M") },
+            { label: "1Y Return (%)", value: quote?.one_year_change?.replace('%', '') || getReturn("1Y") },
             { label: "52-Week Low", value: w52Low },
-            { label: "3M Return (%)", value: "-" },
-            { label: "3Y Return (%)", value: "-" },
-            { label: "52-Week Average", value: "-" },
-            { label: "6M Return (%)", value: "-" },
-            { label: "5Y Return (%)", value: "-" },
+            { label: "3M Return (%)", value: getReturn("3M") },
+            { label: "3Y Return (%)", value: getReturn("3Y") },
+            { label: "52-Week Average", value: fmtNum(get52WeekAvg()) },
+            { label: "6M Return (%)", value: getReturn("6M") },
+            { label: "5Y Return (%)", value: getReturn("5Y") },
         ];
 
-        // Valuation
-        // PER is in quote or financials
+        // 3. Valuation: Calculate EV from Balance Sheet
+        // Need to find "Cash and Bank Balances" and "Total Debt" in Balance Sheet
+        // Balance Sheet structure assumed: [{ data: [{ label: "Cash...", value: ... }]}] or similar
+        const getBSValue = (labelPart) => {
+            if (!balance_sheet || !Array.isArray(balance_sheet) || balance_sheet.length === 0) return 0;
+            // Check if it's grouped by year (list of objects with data array)
+            // We want the LATEST year (usually first in list or we sort)
+            // Probed data implies structure might be list of items.
+
+            for (const yearGroup of balance_sheet) {
+                if (yearGroup.data && Array.isArray(yearGroup.data)) {
+                    const found = yearGroup.data.find(d => d.label && d.label.toLowerCase().includes(labelPart.toLowerCase()));
+                    if (found && found.value) return parseFloat(found.value.replace(/,/g, ''));
+                }
+            }
+            return 0;
+        };
+
+        const cash = getBSValue("Cash and Bank");
+        const longTermLoan = getBSValue("Long Term Loan");
+        const shortTermLoan = getBSValue("Short Term Loan");
+        const currentPortion = getBSValue("Current Portion of Long Term");
+
+        const totalDebt = longTermLoan + shortTermLoan + currentPortion;
+
+        const price = parseFloat(quote?.last_close?.replace(/,/g, '').replace('Rs.', '')) || 0;
+        // Total Shares in MN
+        const outstandingSharesObj = stock_data?.find(x => x.label === "Outstanding Shares - Adjusted");
+        const totalSharesObj = outstandingSharesObj?.data?.find(x => x.label === "Total Shares");
+        const totalShares = parseFloat(totalSharesObj?.data?.[totalSharesObj.data.length - 1]?.value || 0);
+
+        // Market Cap = Price * Shares (in Millions) -> Result in Millions (PKR)
+        const marketCap = totalShares * price;
+
+        // EV = Market Cap + Debt - Cash
+        const ev = marketCap + totalDebt - cash;
+
         const pe = quote?.pe_ratio || getLast(financials, "PER");
         const pbv = getLast(financials, "PBV");
         const dy = getLast(financials, "Div Yield");
@@ -68,30 +138,19 @@ const CompanyOverview = () => {
             { label: "PE", value: pe },
             { label: "Div Yield", value: dy },
             { label: "PBV", value: pbv },
-            { label: "Enterprise Value (PKR-mn)", value: "-" },
-            { label: "Total Debt (PKR-mn)", value: "-" },
-            { label: "Cash (PKR-mn)", value: "-" },
+            { label: "Enterprise Value (PKR-mn)", value: fmtNum(ev.toFixed(1)) },
+            { label: "Total Debt (PKR-mn)", value: fmtNum(totalDebt.toFixed(1)) },
+            { label: "Cash (PKR-mn)", value: fmtNum(cash.toFixed(1)) },
         ];
 
-        // Equity Profile
-        // Share count in stock_data -> Outstanding Shares - Adjusted -> Total Shares
-        const outstandingSharesObj = stock_data?.find(x => x.label === "Outstanding Shares - Adjusted");
-        const totalSharesObj = outstandingSharesObj?.data?.find(x => x.label === "Total Shares");
-        const totalShares = totalSharesObj?.data?.[totalSharesObj.data.length - 1]?.value || 0;
-
-        const freeFloatObj = outstandingSharesObj?.data?.find(x => x.label === "Free Float"); // %
+        // 4. Equity Profile
+        const freeFloatObj = outstandingSharesObj?.data?.find(x => x.label === "Free Float");
         const freeFloatPercent = freeFloatObj?.data?.[freeFloatObj.data.length - 1]?.value || 0;
-
-        const freeFloatSharesObj = outstandingSharesObj?.data?.find(x => x.label === "Free Float Shares"); // mn
+        const freeFloatSharesObj = outstandingSharesObj?.data?.find(x => x.label === "Free Float Shares");
         const freeFloatShares = freeFloatSharesObj?.data?.[freeFloatSharesObj.data.length - 1]?.value || 0;
 
-        // Market Cap = Price * Shares
-        const price = parseFloat(quote?.last_close?.replace(/,/g, '').replace('Rs.', '')) || 0;
-        const marketCap = (totalShares * price).toFixed(2); // Shares in mn * price = mn PKR? Needs unit check. 
-        // If shares are in MN, Market Cap is in MN.
-
         const equityData = [
-            { label: "Market Cap (PKR-mn)", value: isNaN(marketCap) ? "-" : parseFloat(marketCap).toLocaleString() },
+            { label: "Market Cap (PKR-mn)", value: fmtNum(marketCap.toFixed(2)) },
             { label: "Shares (PKR-mn)", value: totalShares },
             { label: "Free Float (PKR-mn)", value: freeFloatShares },
             { label: "Free Float (%)", value: freeFloatPercent },
