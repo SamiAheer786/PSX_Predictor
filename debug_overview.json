@@ -1,0 +1,1105 @@
+{
+  "company": {
+    "id": 1,
+    "value": 1,
+    "label2": "ABOT",
+    "label": "Abbot Laboratories (Pakistan) Ltd",
+    "name": "Abbot Laboratories (Pakistan) Ltd",
+    "sector_id": 1,
+    "sector": "PHARMACEUTICALS",
+    "symbol": "ABOT",
+    "image": "https://admin.askanalyst.com.pk/logo16/ABOT.svg"
+  },
+  "financials": [
+    {
+      "label": "EPS",
+      "unit": "PKR",
+      "data": [
+        {
+          "year": "2013",
+          "value": "25.83"
+        },
+        {
+          "year": "2014",
+          "value": "28.77"
+        },
+        {
+          "year": "2015",
+          "value": "36.64"
+        },
+        {
+          "year": "2016",
+          "value": "41.08"
+        },
+        {
+          "year": "2017",
+          "value": "42.95"
+        },
+        {
+          "year": "2018",
+          "value": "27.52"
+        },
+        {
+          "year": "2019",
+          "value": "13.28"
+        },
+        {
+          "year": "2020",
+          "value": "46.33"
+        },
+        {
+          "year": "2021",
+          "value": "60.95"
+        },
+        {
+          "year": "2022",
+          "value": "30.69"
+        },
+        {
+          "year": "2023",
+          "value": "2.67"
+        },
+        {
+          "year": "2024",
+          "value": "53.46"
+        }
+      ]
+    },
+    {
+      "label": "DPS",
+      "unit": "PKR",
+      "data": [
+        {
+          "year": "2013",
+          "value": "7.00"
+        },
+        {
+          "year": "2014",
+          "value": "7.80"
+        },
+        {
+          "year": "2015",
+          "value": "30.00"
+        },
+        {
+          "year": "2016",
+          "value": "40.00"
+        },
+        {
+          "year": "2017",
+          "value": "40.00"
+        },
+        {
+          "year": "2018",
+          "value": "20.00"
+        },
+        {
+          "year": "2019",
+          "value": "7.50"
+        },
+        {
+          "year": "2020",
+          "value": "40.00"
+        },
+        {
+          "year": "2021",
+          "value": "40.00"
+        },
+        {
+          "year": "2022",
+          "value": "15.00"
+        },
+        {
+          "year": "2023",
+          "value": "0.00"
+        },
+        {
+          "year": "2024",
+          "value": "10.00"
+        }
+      ]
+    },
+    {
+      "label": "BVPS",
+      "unit": "PKR",
+      "data": [
+        {
+          "year": "2013",
+          "value": "89.35"
+        },
+        {
+          "year": "2014",
+          "value": "111.05"
+        },
+        {
+          "year": "2015",
+          "value": "132.27"
+        },
+        {
+          "year": "2016",
+          "value": "149.06"
+        },
+        {
+          "year": "2017",
+          "value": "146.64"
+        },
+        {
+          "year": "2018",
+          "value": "135.19"
+        },
+        {
+          "year": "2019",
+          "value": "136.59"
+        },
+        {
+          "year": "2020",
+          "value": "159.24"
+        },
+        {
+          "year": "2021",
+          "value": "177.27"
+        },
+        {
+          "year": "2022",
+          "value": "174.73"
+        },
+        {
+          "year": "2023",
+          "value": "186.28"
+        },
+        {
+          "year": "2024",
+          "value": "242.34"
+        }
+      ]
+    },
+    {
+      "label": "Div Yield",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "0.59"
+        },
+        {
+          "year": "2014",
+          "value": "0.65"
+        },
+        {
+          "year": "2015",
+          "value": "2.51"
+        },
+        {
+          "year": "2016",
+          "value": "3.35"
+        },
+        {
+          "year": "2017",
+          "value": "3.35"
+        },
+        {
+          "year": "2018",
+          "value": "1.67"
+        },
+        {
+          "year": "2019",
+          "value": "0.63"
+        },
+        {
+          "year": "2020",
+          "value": "3.35"
+        },
+        {
+          "year": "2021",
+          "value": "3.35"
+        },
+        {
+          "year": "2022",
+          "value": "1.26"
+        },
+        {
+          "year": "2023",
+          "value": 0
+        },
+        {
+          "year": "2024",
+          "value": "0.84"
+        }
+      ]
+    },
+    {
+      "label": "PER",
+      "unit": "x",
+      "data": [
+        {
+          "year": "2013",
+          "value": "46.23"
+        },
+        {
+          "year": "2014",
+          "value": "41.51"
+        },
+        {
+          "year": "2015",
+          "value": "32.59"
+        },
+        {
+          "year": "2016",
+          "value": "29.07"
+        },
+        {
+          "year": "2017",
+          "value": "27.81"
+        },
+        {
+          "year": "2018",
+          "value": "43.40"
+        },
+        {
+          "year": "2019",
+          "value": "89.93"
+        },
+        {
+          "year": "2020",
+          "value": "25.78"
+        },
+        {
+          "year": "2021",
+          "value": "19.59"
+        },
+        {
+          "year": "2022",
+          "value": "38.91"
+        },
+        {
+          "year": "2023",
+          "value": "447.28"
+        },
+        {
+          "year": "2024",
+          "value": "22.34"
+        }
+      ]
+    },
+    {
+      "label": "PBV",
+      "unit": "",
+      "data": [
+        {
+          "year": "2013",
+          "value": "13.37"
+        },
+        {
+          "year": "2014",
+          "value": "10.75"
+        },
+        {
+          "year": "2015",
+          "value": "9.03"
+        },
+        {
+          "year": "2016",
+          "value": "8.01"
+        },
+        {
+          "year": "2017",
+          "value": "8.14"
+        },
+        {
+          "year": "2018",
+          "value": "8.83"
+        },
+        {
+          "year": "2019",
+          "value": "8.74"
+        },
+        {
+          "year": "2020",
+          "value": "7.50"
+        },
+        {
+          "year": "2021",
+          "value": "6.74"
+        },
+        {
+          "year": "2022",
+          "value": "6.83"
+        },
+        {
+          "year": "2023",
+          "value": "6.41"
+        },
+        {
+          "year": "2024",
+          "value": "4.93"
+        }
+      ]
+    },
+    {
+      "label": "Price/Sales",
+      "unit": "x",
+      "data": [
+        {
+          "year": "2013",
+          "value": "6.79"
+        },
+        {
+          "year": "2014",
+          "value": "5.94"
+        },
+        {
+          "year": "2015",
+          "value": "5.52"
+        },
+        {
+          "year": "2016",
+          "value": "5.00"
+        },
+        {
+          "year": "2017",
+          "value": "4.48"
+        },
+        {
+          "year": "2018",
+          "value": "3.93"
+        },
+        {
+          "year": "2019",
+          "value": "3.88"
+        },
+        {
+          "year": "2020",
+          "value": "3.31"
+        },
+        {
+          "year": "2021",
+          "value": "2.75"
+        },
+        {
+          "year": "2022",
+          "value": "2.37"
+        },
+        {
+          "year": "2023",
+          "value": "2.11"
+        },
+        {
+          "year": "2024",
+          "value": "1.71"
+        }
+      ]
+    },
+    {
+      "label": "EV/Sales",
+      "unit": "x",
+      "data": [
+        {
+          "year": "2013",
+          "value": "6.56"
+        },
+        {
+          "year": "2014",
+          "value": "5.61"
+        },
+        {
+          "year": "2015",
+          "value": "5.13"
+        },
+        {
+          "year": "2016",
+          "value": "4.66"
+        },
+        {
+          "year": "2017",
+          "value": "4.15"
+        },
+        {
+          "year": "2018",
+          "value": "3.75"
+        },
+        {
+          "year": "2019",
+          "value": "3.80"
+        },
+        {
+          "year": "2020",
+          "value": "3.12"
+        },
+        {
+          "year": "2021",
+          "value": "2.55"
+        },
+        {
+          "year": "2022",
+          "value": "2.20"
+        },
+        {
+          "year": "2023",
+          "value": "2.02"
+        },
+        {
+          "year": "2024",
+          "value": "1.63"
+        }
+      ]
+    },
+    {
+      "label": "EV/EBITDA",
+      "unit": "x",
+      "data": [
+        {
+          "year": "2013",
+          "value": "27.03"
+        },
+        {
+          "year": "2014",
+          "value": "23.76"
+        },
+        {
+          "year": "2015",
+          "value": "19.92"
+        },
+        {
+          "year": "2016",
+          "value": "17.59"
+        },
+        {
+          "year": "2017",
+          "value": "16.38"
+        },
+        {
+          "year": "2018",
+          "value": "20.56"
+        },
+        {
+          "year": "2019",
+          "value": "31.59"
+        },
+        {
+          "year": "2020",
+          "value": "15.19"
+        },
+        {
+          "year": "2021",
+          "value": "10.81"
+        },
+        {
+          "year": "2022",
+          "value": "13.47"
+        },
+        {
+          "year": "2023",
+          "value": "25.74"
+        },
+        {
+          "year": "2024",
+          "value": "10.03"
+        }
+      ]
+    },
+    {
+      "label": "ROE",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "32.73"
+        },
+        {
+          "year": "2014",
+          "value": "28.71"
+        },
+        {
+          "year": "2015",
+          "value": "30.12"
+        },
+        {
+          "year": "2016",
+          "value": "29.21"
+        },
+        {
+          "year": "2017",
+          "value": "29.05"
+        },
+        {
+          "year": "2018",
+          "value": "19.53"
+        },
+        {
+          "year": "2019",
+          "value": "9.77"
+        },
+        {
+          "year": "2020",
+          "value": "31.32"
+        },
+        {
+          "year": "2021",
+          "value": "36.22"
+        },
+        {
+          "year": "2022",
+          "value": "17.43"
+        },
+        {
+          "year": "2023",
+          "value": "1.48"
+        },
+        {
+          "year": "2024",
+          "value": "24.95"
+        }
+      ]
+    },
+    {
+      "label": "Gross Margin",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "38.46"
+        },
+        {
+          "year": "2014",
+          "value": "38.34"
+        },
+        {
+          "year": "2015",
+          "value": "38.86"
+        },
+        {
+          "year": "2016",
+          "value": "40.05"
+        },
+        {
+          "year": "2017",
+          "value": "38.67"
+        },
+        {
+          "year": "2018",
+          "value": "32.98"
+        },
+        {
+          "year": "2019",
+          "value": "28.28"
+        },
+        {
+          "year": "2020",
+          "value": "33.57"
+        },
+        {
+          "year": "2021",
+          "value": "37.76"
+        },
+        {
+          "year": "2022",
+          "value": "29.49"
+        },
+        {
+          "year": "2023",
+          "value": "21.36"
+        },
+        {
+          "year": "2024",
+          "value": "28.95"
+        }
+      ]
+    },
+    {
+      "label": "EBITDA Margin",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "24.28"
+        },
+        {
+          "year": "2014",
+          "value": "23.63"
+        },
+        {
+          "year": "2015",
+          "value": "25.75"
+        },
+        {
+          "year": "2016",
+          "value": "26.48"
+        },
+        {
+          "year": "2017",
+          "value": "25.36"
+        },
+        {
+          "year": "2018",
+          "value": "18.24"
+        },
+        {
+          "year": "2019",
+          "value": "12.02"
+        },
+        {
+          "year": "2020",
+          "value": "20.56"
+        },
+        {
+          "year": "2021",
+          "value": "23.58"
+        },
+        {
+          "year": "2022",
+          "value": "16.33"
+        },
+        {
+          "year": "2023",
+          "value": "7.85"
+        },
+        {
+          "year": "2024",
+          "value": "16.20"
+        }
+      ]
+    },
+    {
+      "label": "Operating Margin",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "21.97"
+        },
+        {
+          "year": "2014",
+          "value": "21.42"
+        },
+        {
+          "year": "2015",
+          "value": "23.46"
+        },
+        {
+          "year": "2016",
+          "value": "24.20"
+        },
+        {
+          "year": "2017",
+          "value": "23.03"
+        },
+        {
+          "year": "2018",
+          "value": "15.77"
+        },
+        {
+          "year": "2019",
+          "value": "9.07"
+        },
+        {
+          "year": "2020",
+          "value": "17.76"
+        },
+        {
+          "year": "2021",
+          "value": "20.63"
+        },
+        {
+          "year": "2022",
+          "value": "13.40"
+        },
+        {
+          "year": "2023",
+          "value": "4.99"
+        },
+        {
+          "year": "2024",
+          "value": "13.59"
+        }
+      ]
+    },
+    {
+      "label": "Net Margin",
+      "unit": "%",
+      "data": [
+        {
+          "year": "2013",
+          "value": "14.69"
+        },
+        {
+          "year": "2014",
+          "value": "14.30"
+        },
+        {
+          "year": "2015",
+          "value": "16.94"
+        },
+        {
+          "year": "2016",
+          "value": "17.20"
+        },
+        {
+          "year": "2017",
+          "value": "16.12"
+        },
+        {
+          "year": "2018",
+          "value": "9.06"
+        },
+        {
+          "year": "2019",
+          "value": "4.31"
+        },
+        {
+          "year": "2020",
+          "value": "12.85"
+        },
+        {
+          "year": "2021",
+          "value": "14.02"
+        },
+        {
+          "year": "2022",
+          "value": "6.10"
+        },
+        {
+          "year": "2023",
+          "value": "0.47"
+        },
+        {
+          "year": "2024",
+          "value": "7.68"
+        }
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "label": "Div Yield",
+      "unit": "%",
+      "value": "4.90"
+    },
+    {
+      "label": "PER",
+      "unit": "x",
+      "value": "26.03"
+    },
+    {
+      "label": "PBV",
+      "unit": "x",
+      "value": "3.80"
+    },
+    {
+      "label": "Price/Sales",
+      "unit": "x",
+      "value": "2.56"
+    },
+    {
+      "label": "EV/Sales",
+      "unit": "x",
+      "value": "2.55"
+    },
+    {
+      "label": "EV/EBITDA",
+      "unit": "x",
+      "value": "11.90"
+    },
+    {
+      "label": "ROE",
+      "unit": "%",
+      "value": "14.61"
+    },
+    {
+      "label": "Gross Margin",
+      "unit": "%",
+      "value": "40.31"
+    },
+    {
+      "label": "EBITDA Margin",
+      "unit": "%",
+      "value": "21.47"
+    },
+    {
+      "label": "Operating Margin",
+      "unit": "%",
+      "value": "19.13"
+    },
+    {
+      "label": "Net Margin",
+      "unit": "%",
+      "value": "9.84"
+    }
+  ],
+  "stock_data": [
+    {
+      "label": "Outstanding Shares - Adjusted",
+      "data": [
+        {
+          "label": "Total Shares",
+          "unit": "mn",
+          "data": [
+            {
+              "year": 2021,
+              "value": "97.9"
+            },
+            {
+              "year": 2022,
+              "value": "97.90"
+            },
+            {
+              "year": 2023,
+              "value": "97.90"
+            },
+            {
+              "year": 2024,
+              "value": "97.90"
+            }
+          ]
+        },
+        {
+          "label": "Free Float Shares",
+          "unit": "mn",
+          "data": [
+            {
+              "year": 2021,
+              "value": "21.06"
+            },
+            {
+              "year": 2022,
+              "value": "21.08"
+            },
+            {
+              "year": 2023,
+              "value": "21.09"
+            },
+            {
+              "year": 2024,
+              "value": "21.10"
+            }
+          ]
+        },
+        {
+          "label": "Free Float",
+          "unit": "%",
+          "data": [
+            {
+              "year": 2021,
+              "value": "21.51"
+            },
+            {
+              "year": 2022,
+              "value": "21.53"
+            },
+            {
+              "year": 2023,
+              "value": "21.54"
+            },
+            {
+              "year": 2024,
+              "value": "21.55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Adjusted Stock Prices",
+      "data": [
+        {
+          "label": "Close",
+          "unit": "PKR",
+          "data": [
+            {
+              "year": 2021,
+              "value": "668.02"
+            },
+            {
+              "year": 2022,
+              "value": "614.08"
+            },
+            {
+              "year": 2023,
+              "value": "449.93"
+            },
+            {
+              "year": 2024,
+              "value": "750.95"
+            }
+          ]
+        },
+        {
+          "label": "High",
+          "unit": "PKR",
+          "data": [
+            {
+              "year": 2021,
+              "value": "750.00"
+            },
+            {
+              "year": 2022,
+              "value": "710.00"
+            },
+            {
+              "year": 2023,
+              "value": "792.38"
+            },
+            {
+              "year": 2024,
+              "value": "820.00"
+            }
+          ]
+        },
+        {
+          "label": "Low",
+          "unit": "PKR",
+          "data": [
+            {
+              "year": 2021,
+              "value": "475.00"
+            },
+            {
+              "year": 2022,
+              "value": "302.10"
+            },
+            {
+              "year": 2023,
+              "value": "309.00"
+            },
+            {
+              "year": 2024,
+              "value": "675.00"
+            }
+          ]
+        },
+        {
+          "label": "Average",
+          "unit": "PKR",
+          "data": [
+            {
+              "year": 2021,
+              "value": "643.522489"
+            },
+            {
+              "year": 2022,
+              "value": "479.043612"
+            },
+            {
+              "year": 2023,
+              "value": "580.096145"
+            },
+            {
+              "year": 2024,
+              "value": "754.079328"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Return Composition",
+      "data": [
+        {
+          "label": "Capital Gain / (Loss)",
+          "unit": "%",
+          "data": [
+            {
+              "year": 2021,
+              "value": "-11.52"
+            },
+            {
+              "year": 2022,
+              "value": "-8.07"
+            },
+            {
+              "year": 2023,
+              "value": "-26.73"
+            },
+            {
+              "year": 2024,
+              "value": "66.90"
+            }
+          ]
+        },
+        {
+          "label": "Dividend Return",
+          "unit": "%",
+          "data": [
+            {
+              "year": 2021,
+              "value": "5.99"
+            },
+            {
+              "year": 2022,
+              "value": "2.44"
+            },
+            {
+              "year": 2023,
+              "value": 0
+            },
+            {
+              "year": 2024,
+              "value": "1.33"
+            }
+          ]
+        },
+        {
+          "label": "Total Return",
+          "unit": "%",
+          "data": [
+            {
+              "year": 2021,
+              "value": "-5.53"
+            },
+            {
+              "year": 2022,
+              "value": "-5.63"
+            },
+            {
+              "year": 2023,
+              "value": "-26.73"
+            },
+            {
+              "year": 2024,
+              "value": "68.23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quote": {
+    "company": "Abbott Laboratories (Pakistan) Limited",
+    "sector": "PHARMACEUTICALS",
+    "last_close": "Rs.1,190.00",
+    "change": "-4.25",
+    "change_percent": "(-0.36%)",
+    "open": "1,195.00",
+    "high": "1,202.00",
+    "low": "1,182.00",
+    "volume": "2,015",
+    "circuit_breaker": "1,074.83 \u2014 1,313.68",
+    "day_range": "1,182.00 \u2014 1,202.00",
+    "week_52_range": "790.00 \u2014 1,304.00",
+    "pe_ratio": "17.52",
+    "one_year_change": "-3.64%",
+    "ytd_change": "13.32%"
+  },
+  "profile": {
+    "symbol": "ABOT",
+    "business_description": "Abbott Laboratories (Pakistan) Limited is a public limited company incorporated in Pakistan on July 02, 1948. The Company is principally engaged in the manufacture, import and marketing of branded generic pharmaceutical, nutritional, diagnostic, diabetes care, molecular devices, hospital and consumer products.",
+    "key_people": [
+      {
+        "name": "Syed Anis Ahmed",
+        "role": "CEO"
+      },
+      {
+        "name": "Ehsan A. Malik",
+        "role": "Chairperson"
+      },
+      {
+        "name": "Muhammad Usama Jamil",
+        "role": "Company Secretary"
+      }
+    ],
+    "address": "Plot No. 258 & 324, Opposite Radio Pakistan Transmission Centre, Hyderabad Road, Landhi, Karachi, Pakistan",
+    "website": "www.pk.abbott",
+    "registrar": "FAMCO Share Registration Services (Pvt) Limited, 8-F, Next to Hotel Faran, Nursery Block 6, P.E.C.H.S, Shahrah-e-Faisal,Karachi",
+    "auditor": "EY Ford Rhodes, Chartered Accountants",
+    "fiscal_year_end": "December"
+  }
+}

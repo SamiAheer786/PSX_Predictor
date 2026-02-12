@@ -146,9 +146,16 @@ def get_overview(company_id: int):
         "financials": proxy_get(f"companyfinancialnew/{company_id}?companyfinancial=true&test=true"),
         "industry": proxy_get(f"industrynew/{company_id}"),
         "stock_data": proxy_get(f"stockpricedatanew/{company_id}"),
+        "chart_data": proxy_get(f"stockchartnew/{company_id}"),
         "quote": scrape_quote(symbol),
         "profile": scrape_company(symbol),
     }
+
+
+@app.get("/api/company/{company_id}/chart")
+def get_chart_data(company_id: int):
+    """Stock chart data: 1D, 1M, 1Y etc."""
+    return proxy_get(f"stockchartnew/{company_id}")
 
 
 # ─────────────────────────────────────────────
