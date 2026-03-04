@@ -4,6 +4,7 @@ import { getIncomeStatement, getCashFlow } from '../api';
 import DataTable from '../components/DataTable';
 import SankeyChart from '../components/SankeyChart';
 import { ComparisonChart, TrendChart, GroupedBarChart, BasicPieChart } from '../components/FinancialCharts';
+import DynamicDataView from '../components/DynamicDataView';
 
 const IncomeStatement = () => {
     const { companyId } = useOutletContext();
@@ -115,6 +116,8 @@ const IncomeStatement = () => {
     return (
         <div className="space-y-6">
             <h2 className="text-xl font-bold text-white">Income Statement (Annual)</h2>
+
+            {data && <DynamicDataView data={data} title="Income Statement" defaultChartType="area" />}
 
             {chartData && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

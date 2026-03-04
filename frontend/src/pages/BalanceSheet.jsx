@@ -3,6 +3,7 @@ import { useOutletContext } from 'react-router-dom';
 import { getBalanceSheet } from '../api';
 import DataTable from '../components/DataTable';
 import { CompositionChart, TrendChart, ComparisonChart, GroupedBarChart, BasicPieChart } from '../components/FinancialCharts';
+import DynamicDataView from '../components/DynamicDataView';
 
 const BalanceSheet = () => {
     const { companyId } = useOutletContext();
@@ -105,6 +106,8 @@ const BalanceSheet = () => {
     return (
         <div className="space-y-6">
             <h2 className="text-xl font-bold text-white">Balance Sheet (Annual)</h2>
+
+            {data && <DynamicDataView data={data} title="Balance Sheet" defaultChartType="bar" />}
 
             {chartData && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

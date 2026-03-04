@@ -4,7 +4,7 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from scraper import scrape_company, scrape_equity, scrape_quote
+from scraper import scrape_company, scrape_equity, scrape_quote, scrape_market_summary
 
 # ─────────────────────────────────────────────
 # APP SETUP
@@ -26,6 +26,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..")
 COMPANY_FILE = os.path.join(DATA_DIR, "company_name_value.xls")
 
 _companies_cache = None
+_market_summary_cache = None
 
 
 def get_companies():
@@ -34,6 +35,14 @@ def get_companies():
         df = pd.read_csv(COMPANY_FILE)
         _companies_cache = df.to_dict(orient="records")
     return _companies_cache
+
+
+def get_market_summary_cached():
+    """Return cached market summary; refreshes if called again (in-process cache)."""
+    global _market_summary_cache
+    if _market_summary_cache is None:
+        _market_summary_cache = scrape_market_summary()
+    return _market_summary_cache
 
 
 # ─────────────────────────────────────────────
@@ -69,6 +78,74 @@ def root():
 def list_companies():
     """Return all 360 PSX-listed companies."""
     return get_companies()
+
+
+@app.get("/api/sectors")
+def list_sectors():
+    """Return unique sectors with company counts from the company list."""
+    companies = get_companies()
+    sector_map = {}
+    for c in companies:
+        s = c.get("sector", "Unknown")
+        if s not in sector_map:
+            sector_map[s] = {"sector": s, "sector_id": c.get("sector_id"), "company_count": 0}
+        sector_map[s]["company_count"] += 1
+    return sorted(sector_map.values(), key=lambda x: x["sector"])
+
+
+@app.get("/api/market-summary")
+def market_summary(refresh: bool = False):
+    """
+    Live market data grouped by sector.
+    Returns: { sector_name: [ { symbol, company_name, ldcp, open, high, low, current, change, volume, return }, ... ] }
+    Pass ?refresh=true to bypass the in-process cache.
+    """
+    global _market_summary_cache
+    if refresh:
+        _market_summary_cache = None
+    return get_market_summary_cached()
+
+
+@app.get("/api/sector/{sector_name}/summary")
+def sector_summary(sector_name: str):
+    """Aggregated market statistics for one sector."""
+    data = get_market_summary_cached()
+    if "error" in data:
+        raise HTTPException(status_code=502, detail=data["error"])
+
+    # Case-insensitive match
+    matched_key = next(
+        (k for k in data if k.upper() == sector_name.upper()), None
+    )
+    if not matched_key:
+        raise HTTPException(status_code=404, detail=f"Sector '{sector_name}' not found in market summary")
+
+    companies = data[matched_key]
+    if not companies:
+        return {"sector": matched_key, "companies": [], "stats": {}}
+
+    # Aggregate stats
+    valid_change  = [c["change"]  for c in companies if c["change"]  is not None]
+    valid_volume  = [c["volume"]  for c in companies if c["volume"]  is not None]
+    valid_return  = [c["return"]  for c in companies if c["return"]  is not None]
+    valid_ldcp    = [c["ldcp"]    for c in companies if c["ldcp"]    is not None]
+    valid_current = [c["current"] for c in companies if c["current"] is not None]
+
+    top_gainer = max(companies, key=lambda c: c["return"] or 0)
+    top_loser  = min(companies, key=lambda c: c["return"] or 0)
+
+    stats = {
+        "company_count":   len(companies),
+        "avg_ldcp":        round(sum(valid_ldcp) / len(valid_ldcp), 2)   if valid_ldcp   else None,
+        "avg_current":     round(sum(valid_current) / len(valid_current), 2) if valid_current else None,
+        "total_volume":    round(sum(valid_volume), 0)                   if valid_volume  else None,
+        "avg_change":      round(sum(valid_change) / len(valid_change), 4) if valid_change else None,
+        "avg_return_pct":  round(sum(valid_return) / len(valid_return), 2) if valid_return  else None,
+        "top_gainer":      {"symbol": top_gainer["symbol"], "return": top_gainer["return"]},
+        "top_loser":       {"symbol": top_loser["symbol"],  "return": top_loser["return"]},
+    }
+
+    return {"sector": matched_key, "stats": stats, "companies": companies}
 
 
 @app.get("/api/company/{company_id}/financials")

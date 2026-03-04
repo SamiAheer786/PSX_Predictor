@@ -3,6 +3,7 @@ import { useOutletContext } from 'react-router-dom';
 import { getCashFlow } from '../api';
 import DataTable from '../components/DataTable';
 import { ComparisonChart, TrendChart, BasicPieChart } from '../components/FinancialCharts';
+import DynamicDataView from '../components/DynamicDataView';
 
 const CashFlow = () => {
     const { companyId } = useOutletContext();
@@ -81,6 +82,8 @@ const CashFlow = () => {
     return (
         <div className="space-y-6">
             <h2 className="text-xl font-bold text-white">Cash Flow Statement (Annual)</h2>
+
+            {data && <DynamicDataView data={data} title="Cash Flow" defaultChartType="line" />}
 
             {chartData && (
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

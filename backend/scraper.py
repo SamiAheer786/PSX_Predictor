@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://dps.psx.com.pk/company/"
+MARKET_SUMMARY_URL = "https://www.psx.com.pk/market-summary/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
@@ -126,3 +127,86 @@ def scrape_quote(symbol: str) -> dict:
         "one_year_change": stats.get("1-Year Change * ^", "N/A"),
         "ytd_change": stats.get("YTD Change * ^", "N/A"),
     }
+
+
+def scrape_market_summary() -> dict:
+    """
+    Scrape all sector tables from the PSX market summary page.
+    Returns a dict: { sector_name: [{ SYMBOL, COMPANY_NAME, LDCP, OPEN, HIGH, LOW, CURRENT, CHANGE, VOLUME, RETURN }, ...] }
+    """
+    try:
+        res = requests.get(MARKET_SUMMARY_URL, headers=HEADERS, timeout=30)
+        res.raise_for_status()
+    except Exception as e:
+        return {"error": f"Market summary scrape error: {str(e)}"}
+
+    soup = BeautifulSoup(res.text, "html.parser")
+
+    # The main board div contains all sector table-responsive divs
+    main_div = soup.find("div", id="marketmainboard")
+    if not main_div:
+        # Fallback: try the entire page
+        main_div = soup
+
+    table_divs = main_div.find_all("div", class_="table-responsive")
+
+    result = {}
+
+    for table_div in table_divs:
+        # Sector name from first h4 in the thead
+        h4 = table_div.find("h4")
+        sector = h4.text.strip() if h4 else "Unknown"
+
+        rows = table_div.find_all("tr")
+        # rows[0] has the sector name th (colspan)
+        # rows[1] has the column headers: SCRIP, LDCP, OPEN, HIGH, LOW, CURRENT, CHANGE, VOLUME
+        # rows[2+] are data rows
+        if len(rows) < 3:
+            continue
+
+        companies = []
+        for row in rows[2:]:
+            cols = row.find_all("td")
+            if len(cols) < 8:
+                continue
+
+            def safe_float(text):
+                try:
+                    return float(text.replace(",", "").strip())
+                except (ValueError, AttributeError):
+                    return None
+
+            symbol      = cols[0].get("data-srip", "").strip() or cols[0].text.strip()
+            company_name = cols[0].text.strip()
+            ldcp        = safe_float(cols[1].text)
+            open_price  = safe_float(cols[2].text)
+            high        = safe_float(cols[3].text)
+            low         = safe_float(cols[4].text)
+            current     = safe_float(cols[5].text)
+            change      = safe_float(cols[6].text)
+            volume_raw  = cols[7].text.replace(",", "").strip()
+            volume      = safe_float(volume_raw)
+
+            # Daily return: (CURRENT - OPEN) / OPEN * 100
+            if open_price and open_price != 0 and current is not None:
+                daily_return = round((current - open_price) / open_price * 100, 2)
+            else:
+                daily_return = 0.0
+
+            companies.append({
+                "symbol":       symbol,
+                "company_name": company_name,
+                "ldcp":         ldcp,
+                "open":         open_price,
+                "high":         high,
+                "low":          low,
+                "current":      current,
+                "change":       change,
+                "volume":       volume,
+                "return":       daily_return,
+            })
+
+        if companies:
+            result[sector] = companies
+
+    return result
